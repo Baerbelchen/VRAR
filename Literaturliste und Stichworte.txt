@@ -1,0 +1,26 @@
+Literaturliste für das Thema Virtuelle und erweiterte Realität
+
+Begriffserklärung:
+VR = Virtual Reality
+Zitat Wikipedia: 
+Fallschirmspringer der US-Navy übt mit einem Head-Mounted Display (HMD) virtuell das Fallschirmspringen.
+Als virtuelle Realität, kurz VR, wird die Darstellung und gleichzeitige Wahrnehmung der Wirklichkeit und ihrer physikalischen Eigenschaften in einer in Echtzeit computergenerierten, interaktiven virtuellen Umgebung bezeichnet.
+AR = Erweiterte Realität = Augmented Reality
+Zitat Wikipedia:
+Unter erweiterter Realität (auch englisch augmented reality [ɔːɡˈmɛntɪd ɹiˈælɪti], kurz AR [eɪˈɑː]) versteht man die computergestützte Erweiterung der Realitätswahrnehmung. Diese Information kann alle menschlichen Sinnesmodalitäten ansprechen. Häufig wird jedoch unter erweiterter Realität nur die visuelle Darstellung von Informationen verstanden, also die Ergänzung von Bildern oder Videos mit computergenerierten Zusatzinformationen oder virtuellen Objekten mittels Einblendung/Überlagerung. Bei Fußball-Übertragungen ist erweiterte Realität beispielsweise das Einblenden von Entfernungen bei Freistößen mithilfe eines Kreises oder einer Linie.
+
+Links aus dem Internet:
+https://diepresse.com/home/techscience/hightech/645115/Augmented-Reality_Die-Wirklichkeit-ist-nicht-genug
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.72.1770&rep=rep1&type=pdf
+
+https://www.iff.fraunhofer.de/content/dam/iff/de/dokumente/publikationen/iff-wissenschaftstage-2008-2-digital-engineering-tagungsband-fraunhofer-iff.pdf
+http://www.vismd.de/lib/exe/fetch.php?media=teaching_tutorials:bvm08_ar.pdf
+
+https://scholar.google.at/citations?user=d1_5fIIAAAAJ&hl=en
+
+
+
+Ungefähres Konzept der Arbeit:
+
+Einführung und Begriffserklärung mit Beispielen.
+Leserinnen/Zuhörerinnen an Bord holen mit Situationen/Beispielen wo sie selbst schon VR/AR erlebt haben.
