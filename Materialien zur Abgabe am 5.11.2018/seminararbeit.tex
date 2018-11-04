@@ -1,0 +1,123 @@
+\documentclass[deutsch]{llncs}
+
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{verbatim}
+\usepackage{listings}
+\lstset{numberbychapter=false}
+\usepackage[lined,linesnumbered,german]{algorithm2e}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage{xspace}
+
+% for german seminar theses
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage[abbreviate=false,maxbibnames=99,backend=bibtex]{biblatex}
+\bibliography{referenzen}
+
+\usepackage{hyperref}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{3}
+
+% define custom macros for specific formats or names
+\newcommand{\uml}[1]{\texttt{#1}\xspace}
+\newcommand{\cd}{\textsf{Klassendiagramm}\xspace}
+
+% Numeriere 3 Ebenen tief (bis subsection)
+\setcounter{secnumdepth}{2}
+
+% make a proper TOC despite llncs
+\setcounter{tocdepth}{2}
+\makeatletter
+\renewcommand*\l@author[2]{}
+\renewcommand*\l@title[2]{}
+\makeatletter
+
+\begin{document}
+\def\abstractname{Kurzfassung.}
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\title{Virtuelle und erweiterte Realtität\thanks{Diese Arbeit wurde im Rahmen der LVA ``Wissenschaftliches Arbeiten'' (188.925) im WS18 erstellt.}}
+
+
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+% Name and address of the author
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+%\author{Max Mustermann}
+
+%\institute{Technische Universität Wien\\ Bachelorstudium Wirtschaftsinformatik\\ \email{max.mustermann@tuwien.ac.at} \\ Matrikelnr.: 0123456}
+
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+% Example for more than one authors
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+\author{Barbara Elias\inst{1} \and Wang Yi\inst{2}}
+
+\institute{Technische Universität Wien\\ Bachelorstudium Wirtschaftsinformatik\\ \email{e1028094@student.tuwien.ac.at} \\ Matrikelnr.: 1028094
+\and
+Technische Universität Wien\\ Bachelorstudium Technische Informatik\\ \email{martina.musterfrau@student.tuwien.ac.at} \\ Matrikelnr.: 0234567}
+
+\maketitle
+
+% reset footnote counter in case of multiple authors
+\setcounter{footnote}{0}
+
+\begin{abstract}
+Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität insbesondere zu Ausbildungszwecken. Im Speziellen werden Publikationen von Mag. Dr. Hannes Kaufmann zur näheren Erarbeitung der Nutzung erweiterter Realität in Hinblick auf den Geometrieunterricht herangezogen. Seine Arbeiten zielen darauf ab, Geometrie begreifbarer zu machen, als es mit der Konstruktion mittels Papier und Bleistift möglich ist. Basierend auf schon vorhandener Geometriesoftware wurden VR-Anwendungen konstruiert, die Mathematik verständlicher machen sollen. Die Idee dabei ist, den Schülerinnen und Schülern die Möglichkeit zu geben, mittels VR-Brille um dreidimensionale Objekte zu gehen und diese von neuen, ungeahnten Perspektiven erkennen zu können und damit ein besseres Verständnis für räumliche Geometrie zu bekommen. 
+\end{abstract}
+
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+% Table of contents
+% Activate or deactivate this according to the guideline instructor
+%&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Einleitung}
+\label{sec:intro}
+Die Geschichte der virtuellen Realität reicht länger zurück als man auf den ersten Blick glauben möchte. Schon analoge Systeme der virtuellen Realität lassen sich finden, diese sind zu Trainingszwecken im militärischen Bereich eingesetzt worden.
+Mittlerweile findet man zahlreiche Anwendungen der virtuellen und erweiterten Realität auch im Alltag, beispielsweise als Flugsimulatoren, in der Spieleindustrie (Konsolenspiele), in der Medizin zur Unterstützung bei Operationen oder aber um Lernstoff im wahrsten Sinn des Wortes ``begreifbar'' zu machen. 
+Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität, insbesondere damit, wie sich Anwendungen der erweiterten und virtuellen Realität in der Aus- und Weiterbildung nutzen lassen. 
+Zunächst gilt es zu erklären, was sich hinter den Begriffen ``virtuelle Realität'' und ``erweiterte Realität'' verbirgt.
+Unter virtueller Realität (Virtual Reality, VR) versteht man, eine computergenerierte Welt, die in Echtzeit von ihrem Benutzer erforscht und erlebt werden kann und alle physikalischen Eigenschaften wahrheitsgetreu abbilden kann. 
+Beispielsweise findet man sogenannte VR-Brillen, mit denen man Computerspiele ganz neu erleben kann.
+Augmented Reality (AR, bzw. erweiterte Realität) vermischt virtuelle Realität und physische Realität und wird daher auch als ``mixed reality'' bezeichnet, im Gegensatz zur virtuellen Realität ist man als Nutzer hier nicht von seiner Umwelt abgegrenzt.
+Als Beispiele für erweiterte Realität kann hier Googles ``glass'' genannt werden.
+
+
+
+\section{Erweiterte Realität als Einsatzzweck in der Ausbildung}
+\label{sec:typo}
+
+
+
+\section{Gestaltung der Kapitel}
+\label{sec:typo}
+
+bla bla bla
+
+
+\section{Literaturverweise}
+\label{sec:bib}
+
+\subsection{Literatursuche}
+\label{subsec:search}
+
+
+\subsection{BibTeX}
+\label{subsec:bibtex}
+Verwenden Sie für die einzelnen Literaturverweise BibTeX.
+
+
+\printbibliography
+
+\end{document}
