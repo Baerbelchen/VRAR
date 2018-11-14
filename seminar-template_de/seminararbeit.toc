@@ -1,8 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\select@language {ngerman}
-\defcounter {refsection}{0}\relax 
-\contentsline {title}{Virtuelle und erweiterte Realtit\IeC {\"a}t\unskip {}}{i}{chapter.1}
+\contentsline {title}{Virtuelle und erweiterte Real\IeC {\quotesinglbase }it\IeC {\"a}t\unskip {}}{i}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \authcount {2}
 \defcounter {refsection}{0}\relax 
@@ -10,18 +9,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Gestaltung der Kapitel}{1}{section.1.2}
+\contentsline {section}{\numberline {2}Einsatz in der Aus- und Weiterbildung}{1}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Tabellen}{1}{subsection.1.2.1}
+\contentsline {section}{\numberline {3}Virtuelle und erweiterte Realit\IeC {\"a}t in der Geometrie}{2}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Abbildungen}{1}{subsection.1.2.2}
+\contentsline {section}{\numberline {4}Zusammenfassung}{2}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Schriftarten}{2}{subsection.1.2.3}
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{2}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Code}{2}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {5.1}Literatursuche}{2}{subsection.1.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Literaturverweise}{4}{section.1.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Literatursuche}{4}{subsection.1.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}BibTeX}{4}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {5.2}BibTeX}{2}{subsection.1.5.2}
