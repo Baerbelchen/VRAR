@@ -13,12 +13,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Virtuelle und erweiterte Realit\IeC {\"a}t in der Geometrie}{2}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Designing Immersive Virtual Reality for Geometry Education}{2}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {3.1}Die p\IeC {\"a}dagogischen Vorteile von AR und VR im Unterricht}{2}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Zusammenfassung}{4}{section.1.4}
+\contentsline {subsection}{\numberline {3.2}Von der Zweidimensionalit\IeC {\"a}t in die dritte Dimension}{2}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Literaturverzeichnis}{4}{section.1.5}
+\contentsline {subsection}{\numberline {3.3}Construct 3D als Basis der Forschung}{2}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Literatursuche}{4}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {3.4}Das f\IeC {\"u}r Construct 3D verwendete Setup}{2}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}BibTeX}{4}{subsection.1.5.2}
+\contentsline {subsubsection}{ColorCoding zur Nutzerunterscheidung}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Die tats\IeC {\"a}chliche Umsetzung mittels Transparenz}{3}{subsection.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Simulator-Sickness}{4}{subsection.1.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7}Forschungsergebnisse und Evaluierung}{4}{subsection.1.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8}Mathematics And Geometry Education With Collaborative Augmented Reality}{4}{subsection.1.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.9}Collaborative Augmented Reality in Education}{4}{subsection.1.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10}Designing Immersive Virtual Reality for Geometry Education}{4}{subsection.1.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.11}Summary of Usability Evaluations of an Educational Agumented Reality Application}{4}{subsection.1.3.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Zusammenfassung}{6}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Literaturverzeichnis}{6}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Literatursuche}{6}{subsection.1.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}BibTeX}{6}{subsection.1.5.2}
