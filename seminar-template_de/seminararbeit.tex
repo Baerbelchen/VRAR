@@ -12,15 +12,14 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata}
 \usepackage{xspace}
-%\usepackage{bibtex}
 
 % for german seminar theses
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{csquotes}
 \usepackage[abbreviate=false,maxbibnames=99,backend=bibtex]{biblatex}
-\bibliography{referenzen}
 
+\bibliography{referenzen}
 \usepackage{hyperref}
 
 \setcounter{secnumdepth}{2}
@@ -41,12 +40,13 @@
 \makeatletter
 
 \begin{document}
+
 \def\abstractname{Kurzfassung.}
 
 \pagestyle{plain}
 \pagenumbering{roman}
 
-\title{Virtuelle und erweiterte Real‚ität\thanks{Diese Arbeit wurde im Rahmen der LVA ``Wissenschaftliches Arbeiten'' (188.925) im WS18 erstellt.}}
+\title{Vorlage für Seminararbeiten an der Business Informatics Group\thanks{Diese Arbeit wurde im Rahmen der LVA ``Wissenschaftliches Arbeiten'' (188.925) im WS18 erstellt.}}
 
 
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -59,19 +59,19 @@
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 % Example for more than one authors
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-\author{Barbara Elias\inst{1} \and Wang Yi\inst{2}}
+\author{Barbara Elias\inst{1} \and Yi Wang\inst{2}}
 
-\institute{Technische Universität Wien\\ Bachelorstudium Medizinische Informatik\\ \email{e1028094@student.tuwien.ac.at} \\ Matrikelnr.: 1028094
+\institute{Technische Universität Wien\\ Bachelorstudium Medizinische Informatik\ \email{e1028094@tuwien.ac.at} \\ Matrikelnr.: 01028094
 \and
-Technische Universität Wien\\ Bachelorstudium Wirtschaftsinformatik\\ \email{e1633407@student.tuwien.ac.at} \\ Matrikelnr.: 01633407}
+Technische Universität Wien\\Bachelorstudium Wirtschaftsinformatik\\ \email{e1633407@tuwien.ac.at} \\ Matrikelnr.: 01633407}
 
 \maketitle
 
 % reset footnote counter in case of multiple authors
-\setcounter{footnote}{0}
+%\setcounter{footnote}{0}
 
 \begin{abstract}
-Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität insbesondere zu Ausbildungszwecken. Im Speziellen werden Publikationen von Mag. Dr. Hannes Kaufmann zur näheren Erarbeitung der Nutzung erweiterter Realität in Hinblick auf den Geometrieunterricht herangezogen. Seine Arbeiten zielen darauf ab, Geometrie begreifbarer zu machen, als es mit der Konstruktion mittels Papier und Bleistift möglich ist. Basierend auf schon vorhandener Geometriesoftware wurden VR-Anwendungen konstruiert, die Mathematik verständlicher machen sollen. Die Idee dabei ist, den Schülerinnen und Schülern die Möglichkeit zu geben, mittels VR-Brille um dreidimensionale Objekte zu gehen und diese von neuen, ungeahnten Perspektiven erkennen zu können und damit ein besseres Verständnis für räumliche Geometrie zu bekommen. 
+Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität insbesondere zu Ausbildungszwecken. Im Speziellen werden Publikationen von Mag. Dr. Hannes Kaufmann zur näheren Erarbeitung der Nutzung erweiterter Realität im Hinblick auf den Geometrieunterricht herangezogen. Seine Arbeiten zielen darauf ab, Geometrie begreifbarer zu machen, als es mit der Konstruktion mit Papier und Bleistift möglich ist. Basierend auf schon vorhandener Geometriesoftware wurden VR-Anwendungen konstruiert, die Mathematik verständlicher machen sollen. Die Idee dabei ist, den Schülerinnen und Schülern die Möglichkeit zu geben, mittels VR-Brille um dreidimensionale Objekte zu gehen und diese von neuen, ungeahnten Perspektiven erkennen zu können und damit ein bessers Verständnis für räumliche Geometrie zu bekommen.
 \end{abstract}
 
 %&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
@@ -83,23 +83,46 @@ Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität 
 
 \pagenumbering{arabic}
 
+
+
 \section{Einleitung}
+
 \label{sec:intro}
-Die Geschichte der virtuellen Realität reicht länger zurück als man auf den ersten Blick glauben möchte. Schon analoge Systeme der virtuellen Realität lassen sich finden, diese sind zu Trainingszwecken im militärischen Bereich eingesetzt worden \cite{1}. 
+\cite{1667626}
+Die Geschichte der virtuellen Realität reicht länger zurück als man auf den ersten Blick glauben möchte. Schon analoge Systeme der virtuellen Realität lassen sich finden, diese sind zu Trainingszwecken im militärischen Bereich eingesetzt worden \cite{VR-Nerds}
 Mittlerweile findet man zahlreiche Anwendungen der virtuellen und erweiterten Realität auch im Alltag, beispielsweise als Flugsimulatoren, in der Spieleindustrie (Konsolenspiele), in der Medizin zur Unterstützung bei Operationen oder aber um Lernstoff im wahrsten Sinn des Wortes ``begreifbar'' zu machen. 
 Diese Arbeit beschäftigt sich mit dem Thema virtuelle und erweiterte Realität, insbesondere damit, wie sich Anwendungen der erweiterten und virtuellen Realität in der Aus- und Weiterbildung nutzen lassen. 
 Zunächst gilt es zu erklären, was sich hinter den Begriffen ``virtuelle Realität'' und ``erweiterte Realität'' verbirgt. 
-\noindent \\
-Unter virtueller Realität (Virtual Reality, VR) versteht man eine computergenerierte Welt, die in Echtzeit von ihrem Benutzer erforscht und erlebt werden kann und alle physikalischen Eigenschaften wahrheitsgetreu abbilden kann. 
 Beispielsweise findet man sogenannte VR-Brillen, mit denen man Computerspiele ganz neu erleben kann.
+
+\subsection{Virtuelle Realität}
+\label{sec:typo}
+Unter virtueller Realität (Virtual Reality, VR) versteht man eine computergenerierte Welt, die in Echtzeit von ihrem Benutzer erforscht und erlebt werden kann und alle physikalischen Eigenschaften wahrheitsgetreu abbilden kann. 
+\subsection{Erweiterte Realität}
+
 Augmented Reality (AR, bzw. erweiterte Realität) vermischt virtuelle Realität und physische Realität und wird daher auch als ``mixed reality'' bezeichnet, im Gegensatz zur virtuellen Realität ist man als Nutzer hier nicht von seiner Umwelt abgegrenzt.
-Als Beispiele für erweiterte Realität kann hier Googles ``glass'' genannt werden. \\
+Als Beispiele für erweiterte Realität kann hier Googles ``glass'' genannt werden. 
+Um sich unter erweiterter Realität etwas vorstellen zu können, nennt man am Besten "Pokemon Go"  von Nintendo \cite{Klampfer}.
 \noindent \\
 Die restliche Arbeit gliedert sich in 4 Kapitel wie folgt: 
 Kapitel 2 gibt einen Einblick in State of the Art von VR und AR im. In Kapitel 3 findet sich ein Einblick in die Arbeiten von Hannes Kaufmann, während Kapitel 4 eine Zusammenfassung und Kapitel 5 das Literaturverzeichnis enthält.
 
+\subsection{Mensch und Maschine verbinden}
+
+\subsubsection{Computer System}
+
+
+\subsubsection{Output devices}
+
+
+\subsubsection{Input devices}
+
+
+\section{Einsatzgebiete}
+
+
 \section{Einsatz in der Aus- und Weiterbildung}
-\label{sec:typo}
+
 State of the Art - wie wendet man VR und AR heutzutage an.. to be continued \\
 \noindent \\
 Da die Zeit, in der sich Hannes Kaufmann mit virtueller und erweiterter Realität im Unterricht beschäftigt hat, schon etwas zurückliegt, geht dieses Kapitel auf den aktuellen Entwicklungsstand und State of the Art ein. \\
@@ -115,13 +138,13 @@ In diesem Abschnitt wird näher auf die Forschung und Entwicklung von Hannes Kau
 \subsection{Die pädagogischen Vorteile von AR und VR im Unterricht}
 \label{subsec:}
 Die wissenschaftliche Fragestellung von Hannes Kaufmann im Paper "Designing Immersive Virtual Reality for Geometry Education als Zitat aus dem Paper: \\
-Our ultimate pedagogic goal is to verify if working directly in 3D space allows better and faster comprehension of complex spatial problems and relationships than traditional teaching methods." \cite{3} %Designing Immersive Virtual Reality for Geometry Education - direktes Zitat. 
+Our ultimate pedagogic goal is to verify if working directly in 3D space allows better and faster comprehension of complex spatial problems and relationships than traditional teaching methods." %\cite{3} %Designing Immersive Virtual Reality for Geometry Education - direktes Zitat. 
 
 \subsection{Von der Zweidimensionalität in die dritte Dimension}
 \label{subsec:}
 Erfahrungsgemäß haben einige Schülerinnen und Schüler Probleme damit, sich geometrische Objekte, dargestellt auf Papier oder einer Schultafel vorzustellen und anhand dieser Skizzen mathematische Problemstellungen zu begreifen und zu lösen. Mit dem Einsatz von VR bzw. AR soll dieses Problem gelöst werden.\\
 Software, um die Ideen und Grundlagen der Geometrie zu lehren, existiert bereits seit Anfang der '90er, allerdings damals nur in 2D (GeoGebra als Beispiel). \\
-Construct3D ist die erste Software für die Aus- und Weiterbildung, die auch die 3. Dimension nutzt. \cite{4}
+Construct3D ist die erste Software für die Aus- und Weiterbildung, die auch die 3. Dimension nutzt. %\cite{4}
 
 
 \subsection{Construct 3D als Basis der Forschung}
@@ -191,30 +214,17 @@ Lernenden auf die eigentliche Aufgabe konzentrieren. Dadurch kann der kognitive 
 
 
 
- 
-
-\section{Zusammenfassung}
-\label{sec:typo}
-In dieser Zusammenfassung .... 
-
-\section{Literaturverzeichnis}
+\section{Literaturverweise}
 \label{sec:bib}
 
 \subsection{Literatursuche}
 \label{subsec:search}
 
+%Informationen zu Online-Bibliotheken sowie zur Literatursuche, d.h. interessante Zeitschriften, Konferenzen und Organisationen, finden Sie unter \url{http://www.big.tuwien.ac.at/teaching/info.html}.
 
 \subsection{BibTeX}
 \label{subsec:bibtex}
-[1] https://www.vrnerds.de/die-geschichte-der-virtuellen-realitaet/
-\cite{2 http://virtualrealityforeducation.com/wp-content/uploads/2018/06/HuAu_Lee_2017_VRinEd.pdf}
-TY  - BOOK
-AU  - Kaufmann, Hannes
-PY  - 2003/03/20
-SP  - 
-T1  - Collaborative Augmented Reality in Education
-ER  - 
+
 
 \printbibliography
-
 \end{document}
