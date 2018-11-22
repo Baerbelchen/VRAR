@@ -134,41 +134,17 @@ hin zu einer "greifbaren" Augmented Reality Darstellung zur Konstruktion und Erf
 In einer frühen Phase des augmented Classrooms besteht der Aufbau aus zwei augmented reality kits, stereoskopischen Displays mit Kameras, die man am Kopf montieren kann und Handschuhen, die für den Input und die Interaktion zuständig sind. [Paper von 2002]
 \noindent \\
 Das für Construct3D verwendete Setup unterstützt zwei kooperierende Benutzenden mit stereoskopischen Durchsicht-HMDs 
-(Sony Glasstron D100BE), die einen gemeinsamen virtuellen Raum bereitstellt. Die Benutzenden interagieren im System mit Stiften und Block-Stützen. 
+(Sony Glasstron D100BE), die einen gemeinsamen virtuellen Raum bereitstellt. Die Benutzenden interagieren im System mit Stiften und Panels. 
 Da beide Benutzenden die gleichen virtuellen Objekte sowie den Stift und das Menü der anderen Person sehen können, ist es den Benutzenden möglich 
 gegenseitig zu helfen. Dabei werden Kopf und Hände mit einem ARTTrack1 Tracking-System verfolgt. Eine stationäre Kamera ist ebenfalls vorhanden, um Zuschauenden
 einen zusätzlichen erweiterten Blickwinkel zu bieten oder für Videodokumentationen. Die Softwareplattform Studierstube wird von Construct3D als 
 Laufzeitumgebung und für die Mehrbenutzersynchronisation benutzt. [S.2 f.]\\
 Studierstube ist eine Software-Plattform die als Laufzeitumgebung dient. 
-\subsubsection{ColorCoding zur Nutzerunterscheidung} 
-Im Unterrichtskontext ist es sehr wichtig, dass man die Arbeit der Lernenden unterscheiden kann, besonders im sogenannten remote-teaching-System. \\
--> Layers
-
-\subsection{Die tatsächliche Umsetzung mittels Transparenz}
-\label{subsec:}
-Um geometrische Objekte sinnvoll in 3D darstellen zu können, damit das Gehirn sich auch tatsächlich ein vernünftiges Bild von dem Objekt machen kann,
-ist es notwendig, dass manche Teile transparent dargestellt werden, bzw. versteckt werden. \\
-Zu den Visualisierungstechniken, die in Construct3D verwendet werden, gehören die Verwendung von Transparenz, um das Verständnis der 
-Benutzenden für die Konstruktion zu verbessern, die Farbcodierung, um zwischen den Beiträgen mehrerer Benutzenden zu unterscheiden, 
-die Trennung in Ebenen, um die semantische Strukturierung einer Konstruktion zu unterstützen, und die automatische Vorschau neuer Objekte. 
-Obwohl diese Techniken Szenenverarbeitung und grafisches Rendern trotz des einfachen Aussehens der Anwendung ziemlich teuer machen, 
-ist diese zusätzliche Rechenleistung wert, da die Benutzerfreundlichkeit nach der Einführung dieser Funktionen verbessert wird. [S.3]\\
-In der ersten Version von Construct3D wurde ein Schieberegler implementiert, der den Benutzenden die Möglichkeit gab, die Transparenz von 
-Objekten selbst zu ändern. Dies war nicht zufriedenstellend, da viele Objekte nach einer Reihe von Transparenzveränderungen unterschiedliche 
-Transparenzen hatten, was zu Verwirrung führte. Um eine konsistente Lernumgebung zu schaffen, wurden feste Transparenzwerte für alle Objekte und
- Farbschemata entworfen, sodass Objekte hinter mehr als zwei weiteren überlappenden 3D-Objekten noch zu sehen sind. Komplexe Objekte sind 
-jedoch undurchsichtig gezeichnet. Es ist aber möglich, sie einzeln in den Wireframe-Modus zu schalten. [S.4]
-\noindent \\
-Um geometrische Inhalte zu strukturieren wurde neben der Kodierung von Benutzerinformationen im Farbschema (blau, orange, grün und rot) auch 
-Wert daraufgelegt, visuelle Informationen über aktive und inaktive Ebenen zu haben, indem die Inaktiven in einem entsättigten Stil dargestellt werden. 
-Dies wird in der Abbildung 1 illustriert. Während aktive Objekte sich im rechten oberen Bereich jedes Bildes befinden, sind inaktiven Objekten im jeweiligen
- linken unteren Ecken zu sehen. Alle Screenshots in der ersten Zeile zeigen einen Vergleich zwischen desselektierten und inaktiven Objekten.
- In der zweiten Zeile werden die Ausgewählten mit inaktiven Ebenen verglichen. [S.4 f.]\\
 
 \subsection{Simulator-Sickness}
 \label{subsec:}
 Ähnlich zu der schon bekannten Motion-Sickness, die manchmal bei Videospielen auftritt, die zu Übelkeit und Schwindelgefühlen führen kann, da das Hirn die Informationen, die die Augen liefern, nicht so schnell verarbeiten kann, wird der Gleichgewichtssinn gestört und es kann auch beim Arbeiten mit Construct3D zu einer Art Motion-Sickness, die hier allerdings
-Simulatur Sickness genannt wird, kommen.
+Simulatur Sickness genannt wird, kommen. Nähere Informationen siehe \textit{Summary of Usability Evaluations of an Educational Argumented Reality Apllication.}
 
 \subsection{Forschungsergebnisse und Evaluierung}
 \label{subsec:}
@@ -183,29 +159,82 @@ Die Forschungsergebnisse wurden
 Die aktuelle Version von Construct3D stellt Funktionen für die Konstruktion von 3D-Punkten und geometrischen Objekten (wie beispielsweise Kugeln und
  nicht-uniforme rationale B-Splines) zur Verfügung. Sie bietet auch planare und räumliche geometrische Operationen an diesen Objekten
  (wie beispielsweise Boolesche Operationen und Drehungen) sowie Messungen und Strukturierung von Elementen in Ebenen. [S. 3]\\
-Das Menüsystem von Construct3D ist auf eine tragbare Stift- und Bedienoberfläche, das Personal Interaction Panel, abgebildet. Es gibt fünf 
-Untermenüs, die über Registerkarten zugänglich sind. Irrelevante Funktionen oder Widgets können deaktiviert werden. Somit können die 
+Das Menüsystem von Construct3D ist auf eine tragbare Stift- und Bedienoberfläche, das Personal Interaction Panel, abgebildet. Es gibt fünf Untermenüs, die über Registerkarten zugänglich sind (Siehe Abb. \ref{UI}). Irrelevante Funktionen oder Widgets können deaktiviert werden. Somit können die 
 Lernenden auf die eigentliche Aufgabe konzentrieren. Dadurch kann der kognitive Aufwand für die Nutzung der Anwendung reduziert werden. [S.3]\\
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.3]{Bilder/UI.PNG}
+\caption{Links: Menüsystem von Construct3D, das auf dem PIP angezeigt wird. In einer Hilfebox (oben) werden weitere Details und Hilfe zu den Anwendungsfunktionen dargestellt. Rechts: 3D-Untermenü, welches der benutzenden Person angezeigt wird, die mit dem roten Farbschema arbeitet. [4, S.662]}
+\label{UI}
+\end{center}
+\end{figure} 
+Zu den Visualisierungstechniken, die in Construct3D verwendet werden, gehören die Verwendung von Transparenz, um das Verständnis der 
+Benutzenden für die Konstruktion zu verbessern, die Farbcodierung, um zwischen den Beiträgen mehrerer Benutzenden zu unterscheiden, 
+die Trennung in Ebenen, um die semantische Strukturierung einer Konstruktion zu unterstützen, und die automatische Vorschau neuer Objekte. 
+Obwohl diese Techniken Szenenverarbeitung und grafisches Rendern trotz des einfachen Aussehens der Anwendung ziemlich teuer machen, 
+ist diese zusätzliche Rechenleistung wert, da die Benutzerfreundlichkeit nach der Einführung dieser Funktionen verbessert wird. [S.3]\\
+In der ersten Version von Construct3D wurde ein Schieberegler implementiert, der den Benutzenden die Möglichkeit gab, die Transparenz von 
+Objekten selbst zu ändern. Dies war nicht zufriedenstellend, da viele Objekte nach einer Reihe von Transparenzveränderungen unterschiedliche 
+Transparenzen hatten, was zu Verwirrung führte. Um eine konsistente Lernumgebung zu schaffen, wurden feste Transparenzwerte für alle Objekte und
+ Farbschemata entworfen, sodass Objekte hinter mehr als zwei weiteren überlappenden 3D-Objekten noch zu sehen sind. Komplexe Objekte sind 
+jedoch undurchsichtig gezeichnet. Es ist aber möglich, sie einzeln in den Wireframe-Modus zu schalten. [S.4]
+\noindent \\
+Um geometrische Inhalte zu strukturieren wurde neben der Kodierung von Benutzerinformationen im Farbschema (blau, orange, grün und rot) auch 
+Wert daraufgelegt, visuelle Informationen über aktive und inaktive Ebenen zu haben, indem die Inaktiven in einem entsättigten Stil dargestellt werden. 
+Dies wird in der Abb. \ref{Unterraeume} illustriert. Während aktive Objekte sich im rechten oberen Bereich jedes Bildes befinden, sind inaktiven Objekten im jeweiligen
+ linken unteren Ecken zu sehen. Alle Screenshots in der ersten Zeile zeigen einen Vergleich zwischen desselektierten und inaktiven Objekten.
+ In der zweiten Zeile werden die Ausgewählten mit inaktiven Ebenen verglichen. [S.4 f.]\\
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.3]{Bilder/Unterraeume.PNG}
+\caption{Drei Construct3D Unterräume mit Farben für ausgewählte / abgewählte / aktive und inaktive Ebenen.[S.5]}
+\label{Unterraeume}
+\end{center}
+\end{figure}
+Da die Implementierung des Farbschemas für die Farbe pro benutzende Person und die Anzeige von Ebenen sich als problematischer als ursprünglich erwartet erwies, wurde jedem Primitiv ein anderes Material zugewiesen. Insgesamt wurden mehr als 140 verschiedene Materialien für die Objekte entworfen, um ein einzigartiges Aussehen und Gefühl zu erzeugen. 6 Lichter wurden zu der Szene hinzugefügt, um einheitliche Beleuchtungsbedingungen unabhängig von der Position der Benutzenden in der virtuellen Umgebung zu erzeugen.[S.5]\\
+Zusätzlich bietet Construc3D folgende Funktionen: Beim Nahekommen eines Objektes bzw. Punktes kann es hervorgehoben bzw. gezogen werden. Eine Vorschaufunktion ist ebenfalls möglich nach der visuellen Rückmeldung, dass die Konstruktion mit den Eingabeparametern funktioniert (Siehe Abb. \ref{Vorschau}).[S.5 f.]\\ 
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.3]{Bilder/Vorschau.PNG}
+\caption{Links: Vorschaue eines Zylinders. Rechts oben: Ein hervorgehobener Punkt.
+Rechts unten: Ein Punkt, der gezogen werden kann. [S.6]}
+\label{Vorschau}
+\end{center}
+\end{figure}
+
 
 \subsection{Summary of Usability Evaluations of an Educational Agumented Reality Application}
 
-Der Entwicklungsprozess von Construct3D ähnelt den Usability Engineering Methoden der virtuellen Umgebungen, die in [5] vorgeschlagen wurden [4, S.661]. Wiederholte formative Auswertungen mit mehr als 100 Lernenden führten über die Jahre hinweg zum Redesign der Anwendung und der Benutzeroberfläche [4, S.660]. Insgesamt wurden 3 Bewertungen von dieser pädagogischen Augmented-Reality-Anwendung für Geometrieunterricht durchgeführt [4, S.660]. Im Folgenden werden die Bewertungen näher betrachtet und die Ergebnisse in Bezug auf Benutzerfreundlichkeit und Simulatorkrankheit sowie Richtlinien präsentiert, wie man Augmented-Reality-Anwendungen mit kopfmontierten Displays entwirft [4, S.660].
-Im Jahr 2000 fand die erste Bewertung mit 14 Schüler\_innen statt [4, S.663]. Diese informelle Auswertung half bei der Erstellung einer detaillierten User Task Analyse [4, S.661]. Neben der positiven Rückmeldung über die leichte Handhabbarkeit und das Design wurde Problem bei Setzen von Punkten entdeckt [4, S.663]. Als Gegenmaßnahme wurde Raster- und Gitterfunktionen eingeführt [4, S.663]. Es wurde beschlossen, dass das zurzeit statische Modellierungswerkzeug Construct3D in eine dynamische 3D-Geometrieanwendung umwandeln wird, aufgrund der Schwierigkeit bei der hochpräzisen 3D-Interaktion und des Verständnisses, dass die Lernenden davon profitieren werden [4, S.663]. 
-Im Jahr 2003 wurde eine Studie auf Basis von Interviews und dem standardisierten Usability-Fragebogen ISONORM 9241/10 durchgeführt [4, S.663]. Eine Reihe von Trainingsübungen wurde entwickelt, die zum österreichischen deskriptiven Geometrie-Curriculum der 11. und 12. Klasse passen [4, S.663].  Daran arbeiteten die Teilnehmenden (9 Schüler, 6 Schülerinnen) mit Hilfe ihrer Lehrenden [4, S.663]. Jede Person nahm an 5 Trainingseinheiten mit einer Dauer von insgesamt 6 Stunden teil [4, S.663]. Die Bewertung danach zeigte, dass die von Lernenden hoch bewerteten Kategorien (siehe Abbildung 4) auch den subjektiv gesehenen höchsten Prioritäten einer Bildungsanwendung (einfach bedienbar, schnell erlernbar; ermutigend, neues auszuprobieren; konsistent und im Gedächtnis bleibend) entsprechen [4, S.664].
-
-Abbildung 4: Ergebnisse des ISONORM Usability-Fragebogens in 6 Kategorien [4, S.664]
-
-Um die Selbstbeschreibbarkeit von Construct3D zu verbessern, wurden bessere Beschriftungen hinzugefügt, sowie eine Hilfe-Box auf dem Panel, um alle Menüelemente zu erklären [4, S.664]. Neben der neuen Strukturierung des Menüsystems wurde das visuelle Design von geometrischen Objekten auch verbessert [4, S.664]. Eingeführt wurden Transparenz-Verwendung, konsistente Farbcodierung, Ebene-Trennung und automatische Vorschau neuer Objekte [4, S.664]. Nähere Informationen zu den Verbesserungen siehe 3.5 [hier Überschrift vom Teil aus Designing Immersive VR… nennen ]
-
-Die dritte Auswertung war im Jahr 2005 [4, S.665]. Verglichen wurde das Lösen von geometrischen Problemen mit Construct3D mit einer pädagogischen Desktop-Anwendung namens CAD3D [4, S.665]. Teilnehmenden waren österreichische Oberstufenschüler\_innen im Alter zwischen 16 und 19 Jahren (M = 17,49, SD = .79; 44 (48,4\%) männlich und 47 (51,6\%) weiblich) [4, S.665]. Sie nahmen an 6 Trainingseinheiten teil, die 45 Minuten dauerten [4, S.665]. In beiden Gruppen betreute ein Tutor oder eine Tutorin zwei Lernenden beim Arbeiten an den Geometrieaufgaben [4, S.665]. Zur Beurteilung der Benutzerfreundlichkeit wurden Fragenbogen entwickelt, die von 8 etablierten Usability-Fragebögen angepasst waren (7 Skalen (siehe Abbildung 5); insgesamt 28 Fragen) [4, S.665].
-
-Abbildung 5: Usability-Bewertungen von Lernenden bezüglich der Verwendung von Construct3D und CAD3D (4-Punkt-Likert-Skala; 1-min, 4-max = am besten; Fehlerbalken $\pm$ 1,96 * Standardfehler) [4, S.665]
-
-Die Analyse der Fragenbogen ergab, dass Construct3D ein hochgradig benutzerfreundliches System ist, das - aus Usability-Sicht - mehrere Vorteile gegenüber der traditionellen Desktop-basierten Anwendung aufweist [4, S.666]. Die niedrigen Bewertungen für technische Aspekte deuten jedoch darauf hin, dass es noch Probleme bezüglich der technischen Robustheit gibt, die angegangen werden müssen [4, S.666]. Seltene Systemabstürze und kleinere technische Probleme können die Motivation der Teilnehmer und die Benutzerfreundlichkeit des Systems beeinträchtigen [4, S.666]. Construct3D sollte hauptsächlich für Lehrinhalte verwendet werden, die eine dynamische 3D-Geometrie verwenden oder die Visualisierung abstrakter Probleme erfordern [4, S.666]. In Bezug auf die bevorzugte Trainingseinrichtung der Lernenden zwischen Construct3D und CAD3D gab es keine signifikanten Unterschiede [4, S.666]. Die Mehrheit der Lernenden möchte Construct3D in der Schule einsetzen (ja = 64,44\%, eher ja = 26,67\%); 8,89\% möchten das System lieber nicht in der Schule einsetzen [4, S.666].  Die Kommentare zu den potenziellen Problemen beim Einsatz von Construct3D in Schulen betrafen vor allem fehlende Finanzierung und die Robustheit der Hardware und Software [4, S.666].
-
-Simulator Sickness
-
-
+Der Entwicklungsprozess von Construct3D ähnelt den Usability Engineering Methoden der virtuellen Umgebungen, die in [5] vorgeschlagen wurden [4, S.661]. Wiederholte formative Auswertungen mit mehr als 100 Lernenden führten über die Jahre hinweg zum Redesign der Anwendung und der Benutzeroberfläche [4, S.660]. Insgesamt wurden 3 Bewertungen von dieser pädagogischen Augmented-Reality-Anwendung für Geometrieunterricht durchgeführt [4, S.660]. Im Folgenden werden die Bewertungen näher betrachtet und die Ergebnisse in Bezug auf Benutzerfreundlichkeit und Simulatorkrankheit sowie Richtlinien präsentiert, wie man Augmented-Reality-Anwendungen mit kopfmontierten Displays entwirft [4, S.660].\\
+Im Jahr 2000 fand die erste Bewertung mit 14 Schüler\_innen statt [4, S.663]. Diese informelle Auswertung half bei der Erstellung einer detaillierten User Task Analyse [4, S.661]. Neben der positiven Rückmeldung über die leichte Handhabbarkeit und das Design wurde Problem bei Setzen von Punkten entdeckt [4, S.663]. Als Gegenmaßnahme wurde Raster- und Gitterfunktionen eingeführt [4, S.663]. Es wurde beschlossen, dass das zurzeit statische Modellierungswerkzeug Construct3D in eine dynamische 3D-Geometrieanwendung umwandeln wird, aufgrund der Schwierigkeit bei der hochpräzisen 3D-Interaktion und des Verständnisses, dass die Lernenden davon profitieren werden [4, S.663]. \\
+Im Jahr 2003 wurde eine Studie auf Basis von Interviews und dem standardisierten Usability-Fragebogen ISONORM 9241/10 durchgeführt [4, S.663]. Eine Reihe von Trainingsübungen wurde entwickelt, die zum österreichischen deskriptiven Geometrie-Curriculum der 11. und 12. Klasse passen [4, S.663].  Daran arbeiteten die Teilnehmenden (9 Schüler, 6 Schülerinnen) mit Hilfe ihrer Lehrenden [4, S.663]. Jede Person nahm an 5 Trainingseinheiten mit einer Dauer von insgesamt 6 Stunden teil [4, S.663]. Die Bewertung danach zeigte, dass die von Lernenden hoch bewerteten Kategorien (siehe Abb. \ref{Fragebogen}) auch den subjektiv gesehenen höchsten Prioritäten einer Bildungsanwendung (einfach bedienbar, schnell erlernbar; ermutigend, neues auszuprobieren; konsistent und im Gedächtnis bleibend) entsprechen [4, S.664].\\
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.2]{Bilder/Fragebogen.PNG}
+\caption{Ergebnisse des ISONORM Usability-Fragebogens in 6 Kategorien [4, S.664]}
+\label{Fragebogen}
+\end{center}
+\end{figure}
+Um die Selbstbeschreibbarkeit von Construct3D zu verbessern, wurden bessere Beschriftungen hinzugefügt, sowie eine Hilfe-Box auf dem Panel, um alle Menüelemente zu erklären [4, S.664]. Neben der neuen Strukturierung des Menüsystems wurde das visuelle Design von geometrischen Objekten auch verbessert [4, S.664]. Eingeführt wurden Transparenz-Verwendung, konsistente Farbcodierung, Ebene-Trennung und automatische Vorschau neuer Objekte [4, S.664]. Nähere Informationen zu den Verbesserungen siehe \textit{Designing Immersive Virtual Reality for Geometry Education.}\\
+Die dritte Auswertung war im Jahr 2005 [4, S.665]. Verglichen wurde das Lösen von geometrischen Problemen mit Construct3D mit einer pädagogischen Desktop-Anwendung namens CAD3D [4, S.665]. Teilnehmenden waren österreichische Oberstufenschüler\_innen im Alter zwischen 16 und 19 Jahren (M = 17,49, SD = .79; 44 (48,4\%) männlich und 47 (51,6\%) weiblich) [4, S.665]. Sie nahmen an 6 Trainingseinheiten teil, die 45 Minuten dauerten [4, S.665]. In beiden Gruppen betreute ein Tutor oder eine Tutorin zwei Lernenden beim Arbeiten an den Geometrieaufgaben [4, S.665]. Zur Beurteilung der Benutzerfreundlichkeit wurden Fragenbogen entwickelt, die von 8 etablierten Usability-Fragebögen angepasst waren (7 Skalen (siehe Abb. \ref{Bewertung}); insgesamt 28 Fragen) [4, S.665].\\
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.4]{Bilder/Bewertung.PNG}
+\caption{Usability-Bewertungen von Lernenden bezüglich der Verwendung von Construct3D und CAD3D (4-Punkt-Likert-Skala; 1-min, 4-max = am besten; Fehlerbalken $\pm$ 1,96 * Standardfehler) [4, S.665]}
+\label{Bewertung}
+\end{center}
+\end{figure}
+Die Analyse der Fragenbogen ergab, dass Construct3D ein hochgradig benutzerfreundliches System ist, das - aus Usability-Sicht - mehrere Vorteile gegenüber der traditionellen Desktop-basierten Anwendung aufweist [4, S.666]. Die niedrigen Bewertungen für technische Aspekte deuten jedoch darauf hin, dass es noch Probleme bezüglich der technischen Robustheit gibt, die angegangen werden müssen [4, S.666]. Seltene Systemabstürze und kleinere technische Probleme können die Motivation der Teilnehmer und die Benutzerfreundlichkeit des Systems beeinträchtigen [4, S.666]. Construct3D sollte hauptsächlich für Lehrinhalte verwendet werden, die eine dynamische 3D-Geometrie verwenden oder die Visualisierung abstrakter Probleme erfordern [4, S.666]. In Bezug auf die bevorzugte Trainingseinrichtung der Lernenden zwischen Construct3D und CAD3D gab es keine signifikanten Unterschiede [4, S.666]. Die Mehrheit der Lernenden möchte Construct3D in der Schule einsetzen (ja = 64,44\%, eher ja = 26,67\%); 8,89\% möchten das System lieber nicht in der Schule einsetzen [4, S.666].  Die Kommentare zu den potenziellen Problemen beim Einsatz von Construct3D in Schulen betrafen vor allem fehlende Finanzierung und die Robustheit der Hardware und Software [4, S.666].\\
+\textbf{Simulator Sickness}\\
+In der Evaluationsstudie im Jahr 2003 wurde diese negative Nebenwirkung von einigen Lernenden berichtet [4, S.667]. 20 Minuten nach dem Beginn des Arbeitens in der virtuellen Umgebung tauchen Kopfschmerzen und Augenbelastungen bei einer Schülerin auf, trotzdem wollte sie damit weiterarbeiten [4, S.667]. Im Nachhinein stellt es sich heraus, dass die einstündigen Auswertungen für die kontinuierliche Arbeit mit einem HMD zu lang waren [4, S.667]. Da negative Nebenwirkungen ein allgemeines potenzielles Problem bei der Arbeit mit HMDs darstellen und die subjektive Erfahrung der Benutzenden erheblich beeinflussen, sind sie für alle VR/AR-Anwendungen relevant, die diese Displays verwenden [4, S.667]. Mögliche Gründe für diese Nebenwirkung wären Akkomodationsprobleme, niedrige Bildfrequenz, Verzögerung oder schlechtsitzende Helme [4, S.667].\\
+Folglich wurde in der dritten Studie im Jahr 2005 die Trainingsdauer pro Einheit auf maximal 45 Minuten reduziert, Hartplastikhelm durch leichten Fahrradhelm ersetzt und selbstbestimmte Ausruhzeit eingeführt [4, S.667 f.]. Trotzdem spürten 75,56\% der 47 Teilnehmenden eine moderate Müdigkeit oder Erschöpfung und 61,36\% berichteten von einer leichten Augenbelastung [4, S.668]. Einige hatten Kopfschmerzen (37,78\%) und Schwindelgefühl (35,56\%) (siehe Abb. \ref{Sickness}) [4, S.668]. Im Allgemeinen berichteten die meisten Teilnehmenden jedoch nicht, dass sie schwerwiegende Probleme hatten [4, S.668]. Die meisten dieser Symptome könnten mit der Verwendung einer HMD zusammenhängen [4, S.668]. In Übereinstimmung mit den Beobachtungen und anderen Studien wurde empfohlen, die HMD-Nutzungszeit auf 20-30 Minuten pro Einheit zu beschränken [4, S.668]. Basierend auf der Erfahrung trägt die Bildqualität von HMDs, insbesondere die Verzögerung und Qualität der Tracking-Daten, am meisten zu den berichteten Effekten bei [4, S.668].\\
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.5]{Bilder/Sickness.PNG}
+\caption{Prozentsatz der Benutzenden, die ein bestimmtes Symptom melden, wird angezeigt (0\% = von keiner benutzenden Person gemeldet; 100\% = von allen Benutzenden gemeldet) [4, S.668].}
+\label{Sickness}
+\end{center}
+\end{figure}
 
 \section{Zusammenfassung}
 \label{sec:typo}

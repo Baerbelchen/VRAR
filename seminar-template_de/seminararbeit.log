@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.7)  22 NOV 2018 00:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.7)  22 NOV 2018 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,9 +994,6 @@ LaTeX Warning: Label `subsec:' multiply defined.
 LaTeX Warning: Label `subsec:' multiply defined.
 
 
-LaTeX Warning: Label `subsec:' multiply defined.
-
-
 LaTeX Warning: Label `sec:typo' multiply defined.
 
 )
@@ -1130,58 +1127,105 @@ LaTeX Warning: Citation '3' on page 2 undefined on input line 118.
 LaTeX Warning: Citation '4' on page 2 undefined on input line 124.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 149--167
+<Bilder/UI.PNG, id=128, 1163.547pt x 480.5955pt>
+File: Bilder/UI.PNG Graphic file (type png)
+<use Bilder/UI.PNG>
+Package pdftex.def Info: Bilder/UI.PNG  used on input line 166.
+(pdftex.def)             Requested size: 349.06679pt x 144.17976pt.
 
+Overfull \hbox (1.94325pt too wide) in paragraph at lines 166--167
+ [] 
  []
 
+<Bilder/Unterraeume.PNG, id=131, 1201.48875pt x 581.17125pt>
+File: Bilder/Unterraeume.PNG Graphic file (type png)
+<use Bilder/Unterraeume.PNG>
+Package pdftex.def Info: Bilder/Unterraeume.PNG  used on input line 189.
+(pdftex.def)             Requested size: 360.44942pt x 174.35272pt.
+
+Overfull \hbox (13.32588pt too wide) in paragraph at lines 189--190
+ [] 
+ []
+
+<Bilder/Vorschau.PNG, id=133, 993.7125pt x 537.207pt>
+File: Bilder/Vorschau.PNG Graphic file (type png)
+<use Bilder/Vorschau.PNG>
+Package pdftex.def Info: Bilder/Vorschau.PNG  used on input line 198.
+(pdftex.def)             Requested size: 298.11604pt x 161.16335pt.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 183--189
+Underfull \vbox (badness 1509) has occurred while \output is active []
 
- []
+ [4 <./Bilder/UI.PNG>]
+<Bilder/Fragebogen.PNG, id=147, 1347.8355pt x 667.89525pt>
+File: Bilder/Fragebogen.PNG Graphic file (type png)
+<use Bilder/Fragebogen.PNG>
+Package pdftex.def Info: Bilder/Fragebogen.PNG  used on input line 213.
+(pdftex.def)             Requested size: 269.56232pt x 133.57668pt.
+<Bilder/Bewertung.PNG, id=149, 759.43726pt x 529.98pt>
+File: Bilder/Bewertung.PNG Graphic file (type png)
+<use Bilder/Bewertung.PNG>
+Package pdftex.def Info: Bilder/Bewertung.PNG  used on input line 222.
+(pdftex.def)             Requested size: 303.76952pt x 211.98824pt.
+<Bilder/Sickness.PNG, id=151, 582.978pt x 607.67026pt>
+File: Bilder/Sickness.PNG Graphic file (type png)
+<use Bilder/Sickness.PNG>
+Package pdftex.def Info: Bilder/Sickness.PNG  used on input line 233.
+(pdftex.def)             Requested size: 291.48828pt x 303.83438pt.
 
-[4]
-Overfull \hbox (2.23816pt too wide) in paragraph at lines 198--199
+Overfull \hbox (2.23816pt too wide) in paragraph at lines 208--238
 \OT1/cmr/m/n/10 bes-sert [4, S.664]. Ein-gef[]uhrt wur-den Transparenz-Verwendu
 ng, kon-sis-ten-te Farb-
  []
 
 
-Overfull \hbox (0.46043pt too wide) in paragraph at lines 198--199
+Overfull \hbox (0.46043pt too wide) in paragraph at lines 208--238
 \OT1/cmr/m/n/10 co-die-rung, Ebene-Trennung und au-to-ma-ti-sche Vor-schau neu-
 er Ob-jek-te [4, S.664].
  []
 
 
-Overfull \hbox (20.82039pt too wide) in paragraph at lines 200--201
-\OT1/cmr/m/n/10 Desktop-Anwendung na-mens CAD3D [4, S.665]. Teil-neh-men-den wa
--ren []osterreichische
+Overfull \hbox (3.3482pt too wide) in paragraph at lines 208--238
+\OT1/cmr/m/n/10 von geo-me-tri-schen Pro-ble-men mit Con-struct3D mit ei-ner p[
+]adagogischen Desktop-
  []
 
 
-Underfull \vbox (badness 5105) has occurred while \output is active []
+Overfull \hbox (2.15489pt too wide) in paragraph at lines 208--238
+\OT1/cmr/m/n/10 sp[]urten 75,56% der 47 Teil-neh-men-den ei-ne mo-de-ra-te M[]u
+digkeit oder Ersch[]opfung
+ []
 
- [5]
+[5 <./Bilder/Unterraeume.PNG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./Bilder/Vorschau.PNG>] [7 <./Bilder/Fragebogen.PNG>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./Bilder/Bewertung.PNG>]
 
 LaTeX Warning: Citation '2 http://virtualrealityforeducation.com/wp-content/upl
-oads/2018/06/HuAu_Lee_2017_VRinEd.pdf' on page 6 undefined on input line 224.
+oads/2018/06/HuAu_Lee_2017_VRinEd.pdf' on page 9 undefined on input line 253.
 
 
-LaTeX Warning: Empty bibliography on input line 231.
+LaTeX Warning: Empty bibliography on input line 260.
 
 
-Overfull \hbox (445.9729pt too wide) in paragraph at lines 223--232
+Overfull \hbox (445.9729pt too wide) in paragraph at lines 252--261
 \OT1/cmr/m/n/10 [1] https://www.vrnerds.de/die-geschichte-der-virtuellen-realit
 aet/ [[]]
  []
 
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+
+Underfull \vbox (badness 2799) has occurred while \output is active []
+
+ [9 <./Bilder/Sickness.PNG>] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./seminararbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `seminararbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D24D227C0610CE3785A3D762CD7B81BE;1704.
+(rerunfilecheck)             Checksum: D17B158E2121C1BEFA53F2F8544C0C45;1600.
 
 
 LaTeX Warning: There were undefined references.
@@ -1199,13 +1243,13 @@ Package logreq Info: Writing requests to 'seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26740 strings out of 492639
- 502941 string characters out of 6133088
- 827707 words of memory out of 5000000
- 30210 multiletter control sequences out of 15000+600000
- 10518 words of font info for 37 fonts, out of 8000000 for 9000
+ 26787 strings out of 492639
+ 503709 string characters out of 6133088
+ 835709 words of memory out of 5000000
+ 30240 multiletter control sequences out of 15000+600000
+ 10864 words of font info for 38 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,8n,66p,1307b,2189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,66p,1295b,2189s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2018/texmf-dis
@@ -1214,12 +1258,13 @@ pe1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
 fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on seminararbeit.pdf (8 pages, 158527 bytes).
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on seminararbeit.pdf (12 pages, 4303649 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
