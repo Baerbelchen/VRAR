@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {title}{Virtuelle und erweiterte Real\IeC {\quotesinglbase }it\IeC {\"a}t\unskip {}}{i}{chapter.1}
+\contentsline {title}{Virtuelle und erweiterte Realit\IeC {\"a}t\unskip {}}{i}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \authcount {2}
 \defcounter {refsection}{0}\relax 

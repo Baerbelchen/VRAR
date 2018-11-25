@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.7)  23 NOV 2018 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.11.7)  25 NOV 2018 02:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1230,9 +1230,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./seminararbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
-Package rerunfilecheck Info: File `seminararbeit.out' has not changed.
-(rerunfilecheck)             Checksum: D17B158E2121C1BEFA53F2F8544C0C45;1600.
 
+
+Package rerunfilecheck Warning: File `seminararbeit.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `seminararbeit.out':
+(rerunfilecheck)             Before: D17B158E2121C1BEFA53F2F8544C0C45;1600
+(rerunfilecheck)             After:  DDFEF10C27457AB212D46CD33D6A980B;1596.
 
 LaTeX Warning: There were undefined references.
 
@@ -1251,7 +1257,7 @@ Package logreq Info: Writing requests to 'seminararbeit.run.xml'.
 Here is how much of TeX's memory you used:
  26787 strings out of 492639
  503709 string characters out of 6133088
- 832707 words of memory out of 5000000
+ 832708 words of memory out of 5000000
  30240 multiletter control sequences out of 15000+600000
  10864 words of font info for 38 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1267,7 +1273,7 @@ fb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2018/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on seminararbeit.pdf (12 pages, 4303674 bytes).
+Output written on seminararbeit.pdf (12 pages, 4303517 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams
