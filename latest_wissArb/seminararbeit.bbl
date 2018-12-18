@@ -1,0 +1,630 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Klampfer}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={(2016).},
+         familyi={\bibinitperiod},
+         given={Klampfer\bibnamedelima Alfred.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{2}
+    \field{sortinithash}{2}
+    \field{booktitle}{Athens: ATINER'S Conference Paper Series. EDU2017-2214.
+  1-25.}
+    \field{title}{{Virtual/Augmented Reality in Education. Analysis of the
+  Potential Applications in the Teaching/Learning Process.}}
+  \endentry
+
+  \entry{Bowman:1999:ITC:930593}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BD}{%
+         family={Bowman},
+         familyi={B\bibinitperiod},
+         given={Doug},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Georgia Institute of Technology}%
+    }
+    \strng{namehash}{BD1}
+    \strng{fullhash}{BD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Human-computer Interaction in three dimensions is not well understood, and
+  there are few 3D applications in common use. Moreover, the complications of
+  3D interaction are magnified in immersive virtual environment (VE)
+  applications: characteristics such as inaccurate tracking and lack of access
+  to traditional input devices cause the design of user interfaces (UIs) and
+  interaction techniques (ITs) for immersive VEs to be extremely difficult.
+  Despite these difficulties, we maintain that there are complex applications
+  for which immersive VEs are desirable, so special attention needs to be paid
+  to the design and implementation of ITs for these applications. A large
+  percentage of interactions that take place in immersive VEs fall into a small
+  number of general categories, which include travel (movement of the user's
+  viewpoint from place to place), selection (indicating virtual objects within
+  the environment), and manipulation (setting the position and/or orientation
+  of virtual objects). Given techniques with good performance characteristics
+  for these three interactions, a large number of complex and effective VE
+  applications could be built. In this research we studied ITs for these three
+  universal tasks in the context of a formal, systematic framework, including
+  the design of novel ITs and empirical, comparative evaluations of techniques.
+  This thesis presents several important results of the use of this
+  methodology. First, we have developed new ITs perform well in a variety of
+  application scenarios. Second, we have designed general testbeds for IT
+  evaluation that may be reused for future performance comparisons. Third, we
+  have obtained a large set of empirical results regarding the performance of
+  ITs. These results led to general principles and guidelines (section 7.1)
+  that can be applied to VE systems to improve performance. Finally, we
+  validated these results by applying them to a real-world VE application, and
+  showing that its usability was measurably improved as a direct result. The
+  results presented in this thesis should be useful and important to anyone
+  developing a VE system with even a moderate amount of interaction
+  complexity.%
+    }
+    \field{booktitle}{Techniques}
+    \verb{doi}
+    \verb 10.1.1.29.6639
+    \endverb
+    \field{isbn}{0897917464}
+    \field{issn}{1045926X}
+    \field{number}{June}
+    \field{pages}{142}
+    \field{title}{{Interaction Techniques for Common Tasks in Immersive Virtual
+  Environments}}
+    \list{location}{1}{%
+      {Atlanta, GA, USA}%
+    }
+    \field{type}{phdthesis}
+    \field{annotation}{%
+    AAI9953819%
+    }
+    \field{year}{1999}
+  \endentry
+
+  \entry{vrnerds}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=CS}{%
+         family={Creators},
+         familyi={C\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Design},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Designers},
+         familyi={D\bibinitperiod},
+         given={Cover},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Production},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Decorators},
+         familyi={D\bibinitperiod},
+         given={Interior},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wrangler},
+         familyi={W\bibinitperiod},
+         given={Servlet},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Controller},
+         familyi={C\bibinitperiod},
+         given={Front},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={History},
+         familyi={H\bibinitperiod},
+         given={Printing},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSESEDDCEPDIWSCFHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Online}
+    \field{title}{{Geschichte der virtuellen Realit{\"{a}}t}}
+    \verb{url}
+    \verb https://www.vrnerds.de/die-geschichte-der-virtuellen-realitaet/
+    \endverb
+  \endentry
+
+  \entry{motionsickness}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=CS}{%
+         family={Creators},
+         familyi={C\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Design},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Designers},
+         familyi={D\bibinitperiod},
+         given={Cover},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Production},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Decorators},
+         familyi={D\bibinitperiod},
+         given={Interior},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wrangler},
+         familyi={W\bibinitperiod},
+         given={Servlet},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Controller},
+         familyi={C\bibinitperiod},
+         given={Front},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={History},
+         familyi={H\bibinitperiod},
+         given={Printing},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSESEDDCEPDIWSCFHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Online}
+    \field{title}{{Motionsickness}}
+    \verb{url}
+    \verb https://www.brandeis.edu/graybiel/publications/docs/190{\_}ms{\_}encn
+    \verb s.pdf
+    \endverb
+  \endentry
+
+  \entry{spatial}{misc}{}
+    \name{author}{9}{}{%
+      {{hash=CS}{%
+         family={Creators},
+         familyi={C\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Series},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ED}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Design},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Designers},
+         familyi={D\bibinitperiod},
+         given={Cover},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Editor},
+         familyi={E\bibinitperiod},
+         given={Production},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Decorators},
+         familyi={D\bibinitperiod},
+         given={Interior},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wrangler},
+         familyi={W\bibinitperiod},
+         given={Servlet},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Controller},
+         familyi={C\bibinitperiod},
+         given={Front},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={History},
+         familyi={H\bibinitperiod},
+         given={Printing},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSESEDDCEPDIWSCFHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Online}
+    \field{title}{{No title.}}
+    \verb{url}
+    \verb http://cty.jhu.edu/talent/docs/SpatialMore.pdf
+    \endverb
+  \endentry
+
+  \entry{GittlerDifferentialTO}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=GG}{%
+         family={Gittler},
+         familyi={G\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gl{\"{u}}ck},
+         familyi={G\bibinitperiod},
+         given={Judith},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGGJ1}
+    \strng{fullhash}{GGGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    {\textcopyright} 1998 Heldermann Verlag. An important question in
+  educational research is whether the imparting of knowledge and skills also
+  improves pupils' intelligence. This aspect of transfer of learning is
+  difficult to study within the framework of educational research. The
+  longitudinal study presented here shows, based on sophisticated test
+  materials and methods of analysis, that courses in Descriptive Geometry
+  improve pupils' spatial ability, a primary dimension of intelligence. Also,
+  sex differences that were clearly present at the first testing disappeared
+  during "training" in Descriptive Geometry.%
+    }
+    \field{booktitle}{Journal for Geometry and Graphics}
+    \field{issn}{14338157}
+    \field{number}{1}
+    \field{pages}{71\bibrangedash 84}
+    \field{title}{{Differential transfer of learning: Effects of instruction in
+  Descriptive Geometry on spatial test performance}}
+    \field{volume}{2}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Hu-Au}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HE}{%
+         family={{Hu Au}},
+         familyi={H\bibinitperiod},
+         given={Elliot},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Joey\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HELJJ1}
+    \strng{fullhash}{HELJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Educators face major challenges as a result of the shift from the
+  Information Age to the Experience Age (Wadhera, 2016). For example, students
+  are passive and disengaged (Capps and Crawford, 2013) and may struggle to see
+  the relevance of what they are learning to their lives (Gee, 2009); also,
+  important skills needed for 21st century learners – such as empathy,
+  systems thinking, creativity, computational literacy, and abstract reasoning
+  – are difficult to teach (Smith and Hu, 2013). Virtual reality, an
+  immersive, hands-on tool for learning, can play a unique role in addressing
+  these educational challenges. In this paper, we present examples of how the
+  affordances of virtual reality lead to new opportunities that support
+  learners. We conclude with a discussion of recommendations and next steps.%
+    }
+    \verb{doi}
+    \verb 10.1504/IJIIE.2017.10012691
+    \endverb
+    \field{issn}{1755-151X}
+    \field{number}{4}
+    \field{pages}{215}
+    \field{title}{{Virtual reality in education: a tool for learning in the
+  experience age}}
+    \verb{url}
+    \verb http://www.inderscience.com/link.php?id=10012691
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{International Journal of Innovation in Education}
+    \field{year}{2017}
+  \endentry
+
+  \entry{article}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{collaborative augmented reality,geometry education,mathematics
+  education,spatial,vr learning}
+    \strng{namehash}{KH1}
+    \strng{fullhash}{KH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Technological advances enable the use of innovative learning tools for
+  education. This work gives a brief insight into the potential and challenges
+  of using collaborative Augmented Reality (AR) in education within the greater
+  context of immersive virtual learning environments. As an example the
+  experiences made during the development of a collaborative AR application
+  specifically designed for mathematics and geometry education called
+  Construct3D are summarized. Construct3D is based on the mobile collaborative
+  AR system “Studierstube”. We describe our efforts in developing a system
+  for the improvement of spatial abilities and maximization of transfer of
+  learning. Means of application and integration in mathematics and geometry
+  education at high school as well as university level are being discussed.
+  Anecdotal evidence supports our claim that Construct3D is easy to learn,
+  encourages experimentation with geometric constructions and improves spatial
+  skills.%
+    }
+    \verb{doi}
+    \verb 10.1109/LaTiCE.2014.23
+    \endverb
+    \verb{eprint}
+    \verb 0012113v3
+    \endverb
+    \field{isbn}{TR-188-2-2003-01}
+    \field{issn}{2377-0309}
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{{Collaborative augmented reality in education}}
+    \verb{url}
+    \verb http://www.ita.mx/files/avisos-desplegados/ingles-tecnico/guias-estud
+    \verb io-abril-2012/articulo-informatica-1.pdf
+    \endverb
+    \field{journaltitle}{Keynote Speech at Imagina Conference}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{arXiv:hep-ph}
+    \field{year}{2003}
+  \endentry
+
+  \entry{unknown}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=SK}{%
+         family={Steinb{\"{u}}gl},
+         familyi={S\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=DA}{%
+         family={D{\"{u}}nser},
+         familyi={D\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=GJ}{%
+         family={Gl{\"{u}}ck},
+         familyi={G\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \strng{namehash}{KH+1}
+    \strng{fullhash}{KHSKDAGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    This paper discusses issues of importance to designers of media for
+  visually impaired users. The paper considers the influence of human factors
+  on the effectiveness of presentation as well as the strengths and weaknesses
+  of tactile, vibrotactile, haptic, and multimodal methods of rendering maps,
+  graphs, and models. The authors, all of whom are visually impaired
+  researchers in this domain, present findings from their own work and work of
+  many others who have contributed to the current understanding of how to
+  prepare and render images for both hard-copy and technology-mediated
+  presentation of Braille and tangible graphics.%
+    }
+    \field{booktitle}{VRIC Laval Virtual 2005}
+    \verb{doi}
+    \verb 10.1109/TOH.2015.2466231
+    \endverb
+    \field{issn}{1939-1412}
+    \field{pages}{25\bibrangedash 34}
+    \field{title}{{Improving Spatial Abilities by Geometry Education in
+  Augmented Reality - Application and Evaluation Design Proceedings}}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Kaufmann_summaryof}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Hannes},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={D{\"{u}}nser},
+         familyi={D\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KHDA1}
+    \strng{fullhash}{KHDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    We summarize three evaluations of an educational augmented reality
+  application for geometry education, which have been conducted in 2000, 2003
+  and 2005 respectively. Repeated formative evaluations with more than 100
+  students guided the redesign of the application and its user interface
+  throughout the years. We present and discuss the results regarding usability
+  and simulator sickness providing guidelines on how to design augmented
+  reality applications utilizing head-mounted displays.%
+    }
+    \field{booktitle}{Virtual Reality}
+    \verb{doi}
+    \verb 10.1007/978-3-540-73335-5_71
+    \endverb
+    \field{isbn}{978-3-540-73334-8}
+    \field{issn}{03029743}
+    \field{pages}{660\bibrangedash 669}
+    \field{title}{{Summary of Usability Evaluations of an Educational Augmented
+  Reality Application}}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/978-3-540-73335-5{\_}71
+    \endverb
+    \field{year}{2007}
+  \endentry
+
+  \entry{Kaufmann:2002:MGE:1242073.1242086}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Hannes},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Schmalstieg},
+         familyi={S\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{Augmented reality,Geometry education,Mathematics education,Spatial
+  intelligence}
+    \strng{namehash}{KHSD1}
+    \strng{fullhash}{KHSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Construct3D is a 3D geometric construction tool specifically designed for
+  mathematics and geometry education. It is based on the mobile collaborative
+  augmented reality system "Studierstube". We describe our efforts in
+  developing a system for the improvement of spatial abilities and maximization
+  of transfer of learning. In order to support various teacher-student
+  interaction scenarios we implemented flexible methods for context and user
+  dependent rendering of parts of the construction. Together with hybrid
+  hardware setups they allow the use of Construct3D in today's classrooms and
+  provide a testbed for future evaluations. Means of application and
+  integration in mathematics and geometry education at high school as well as
+  university level are being discussed. Anecdotal evidence supports our claim
+  that Construct3D is easy to learn, encourages experimentation with geometric
+  constructions and improves spatial skills. {\textcopyright} 2003 Elsevier
+  Science Ltd. All rights reserved.%
+    }
+    \field{booktitle}{Computers and Graphics (Pergamon)}
+    \verb{doi}
+    \verb 10.1016/S0097-8493(03)00028-1
+    \endverb
+    \field{isbn}{1-58113-525-4}
+    \field{issn}{00978493}
+    \field{number}{3}
+    \field{pages}{339\bibrangedash 345}
+    \field{series}{SIGGRAPH '02}
+    \field{title}{{Mathematics and geometry education with collaborative
+  augmented reality}}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/1242073.1242086
+    \endverb
+    \field{volume}{27}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2003}
+  \endentry
+\enddatalist
+\endinput

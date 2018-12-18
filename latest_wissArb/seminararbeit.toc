@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {title}{Virtuelle und erweiterte Realit\IeC {\"a}t\unskip {}}{i}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\authcount {2}
+\defcounter {refsection}{0}\relax 
+\contentsline {author}{Barbara Elias\unskip {} \and Yi Wang\unskip {}}{i}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Einsatzgebiete}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Output-Devices}{2}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Input-Devices}{2}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Lernen im Kontext des 21. Jahrhunderts}{2}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Von der Zweidimensionalit\IeC {\"a}t in die dritte Dimension}{3}{subsection.1.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Virtuelle und erweiterte Realit\IeC {\"a}t im Geometrieunterricht}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Motivation}{3}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Statische und dynamische Geometrie}{6}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Nebenwirkungen - Simulator Sickness}{7}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Evaluierungsergebnisse}{8}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Zusammenfassung}{10}{section.1.4}
