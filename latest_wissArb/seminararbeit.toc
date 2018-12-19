@@ -15,7 +15,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Input-Devices}{2}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Lernen im Kontext des 21. Jahrhunderts}{2}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {2.3}Lernen im Kontext des 21. Jahrhunderts}{3}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Von der Zweidimensionalit\IeC {\"a}t in die dritte Dimension}{3}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
@@ -23,10 +23,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Motivation}{3}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Statische und dynamische Geometrie}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.2}Entwicklung des vr/ar-basierten Lernsystems \emph {Construc3D} }{4}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Nebenwirkungen - Simulator Sickness}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.3}Statische und dynamische Geometrie}{6}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Evaluierungsergebnisse}{8}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {3.4}Nebenwirkungen - Simulator Sickness}{7}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Evaluierungsergebnisse}{8}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Zusammenfassung}{10}{section.1.4}
