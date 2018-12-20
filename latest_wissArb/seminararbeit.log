@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  20 DEC 2018 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  20 DEC 2018 15:51
 entering extended mode
 **./seminararbeit.tex
 (seminararbeit.tex
@@ -1278,7 +1278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--219
  []
 
 [9 <./figures/isonorm.png>]
-<figures/stat1.png, id=194, 893.3375pt x 607.26875pt>
+<figures/stat1.png, id=195, 893.3375pt x 607.26875pt>
 File: figures/stat1.png Graphic file (type png)
 <use figures/stat1.png>
 Package pdftex.def Info: figures/stat1.png  used on input line 224.
@@ -1287,35 +1287,207 @@ Package pdftex.def Info: figures/stat1.png  used on input line 224.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.225 ... Fehlerbalken \pm 1,96 * Standardfehler)}
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@c ->\spacefactor 
+                           \@m 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.225 ... Fehlerbalken \pm 1,96 * Standardfehler)}
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no è in font cmex10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@c ->\spacefactor 
+                           \@m 
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.225 ... Fehlerbalken \pm 1,96 * Standardfehler)}
+l.225 ...Standardfehler)\cite{Kaufmann_summaryof}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.225 ... Fehlerbalken \pm 1,96 * Standardfehler)}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no ò in font cmex10!
+Missing character: There is no è in font cmex10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 220--229
 
@@ -1376,9 +1548,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Yi/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/
 Users/Yi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb>
-Output written on seminararbeit.pdf (14 pages, 794516 bytes).
+Output written on seminararbeit.pdf (14 pages, 794959 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
+ 314 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
