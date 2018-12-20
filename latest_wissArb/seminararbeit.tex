@@ -11,7 +11,6 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata}
 \usepackage{xspace}
-
 % for german seminar theses
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -136,7 +135,7 @@ das dem menschlichen Denken in dieser Hinsicht entgegenkommen soll. Im von Hanne
 
 \noindent Schon in früheren Untersuchungen wurde festgestellt, dass sich Geometrieunterricht positiv auf räumliche Intelligenz auswirkt \cite{GittlerDifferentialTO}.
 Herkömmliche  \emph{computer-aided-design(CAD)}-Software  ist nicht gleichzusetzen mit der Implementierungsidee von Hannes Kaufmann. Denn im Unterschied zu CAD-Software, wird im Geometrieunterricht kein Wert darauf gelegt, feinsäuberliche Modelle zu kreieren, sondern auf die inhärente Konstruktion von geometrischen Objekten. Die kommerzielle CAD-Software, die verfügbar ist, ist meistens zu komplex und hat einen zu hohen Lernaufwand, um für den Geometrieunterricht in Frage zu kommen  \cite{Kaufmann:2002:MGE:1242073.1242086}. \\
-Es muss sowohl bei Software als auch Hardware, die im Unterricht verwendet werden soll, bedacht werden, dass Schulen nicht den finanziellen Aufwand aufbringen können, der für eine Versuchsumgebung in der Forschung verwendet werden kann.  Die Technologie, die hier entwickelt wurde, soll zukünftig selbstverständlich keine Lehrenden ersetzen, sondern als Mittel zur Unterstützung im Unterricht gesehen werden \cite{article}. Dies wird in der wissenschaftlichen Fragestellung von Hannes Kaufmann indiziert: ``Our ultimate pedagogic goal is to verify if working directly in 3D space allows better and faster comprehension of complex spatial problems and relationships than traditional teaching methods." \cite{1667626}. \\
+Es muss sowohl bei Software als auch Hardware, die im Unterricht verwendet werden soll, bedacht werden, dass Schulen nicht den finanziellen Aufwand aufbringen können, der für eine Versuchsumgebung in der Forschung verwendet werden kann.  Die Technologie, die hier entwickelt wurde, soll zukünftig selbstverständlich keine Lehrenden ersetzen, sondern als Mittel zur Unterstützung im Unterricht gesehen werden \cite{article}. Dies wird in der wissenschaftlichen Fragestellung von Hannes Kaufmann indiziert: \emph{``Our ultimate pedagogic goal is to verify if working directly in 3D space allows better and faster comprehension of complex spatial problems and relationships than traditional teaching methods."} \cite{1667626}. \\
 \subsection{Entwicklung des vr/ar-basierten Lernsystems \emph{Construc3D} }
 \textbf{Der technische Aufbau} \\
 Ausgangspunkt für die Forschung ist die Software Construct3D, die mehrere Komponenten vereint: Geometrie, Pädagogik, Psychologie und erweiterte Realität \emph{augmented reality (AR)}.
@@ -144,101 +143,95 @@ Basierend auf dieser schon existierenden Software, hat Hannes Kaufmann seine For
 Weiters wurde ein System namens \emph{Studierstube} eingesetzt, welches mehreren Benutzerinnen und Benutzern erlaubt, einen gemeinsamen virtuellen Raum zu nutzen.
 In einer frühen Phase von Construct3D war es möglich primitive Funktionen wie beispielsweise Punkte, Linien, Zylinder und Kegel anzubieten.
 Ein weiteres Werkzeug, \emph{OpenCascade}, bietet die Möglichkeit auch Boolesche-Operationen durchzuführen.
-An Hardware stehen \emph{Head-mounted-Displays (HMDs)} zur 
-Verfügung, konventionelle Monitore und diverse Eingabegeräte. Um Buttons, Sliders sowie andere Elemente in üblicher 2D-Grafik zu integrieren, existiert noch ein \emph{PIP} - personal interaction panel zusätzlich, um haptisches Feedback für die Benutzenden zu simulieren. Weiters werden Kopf und Hände mit einem ARTTrack1 Tracking-System verfolgt.
-Die Umsetzung mittels AR bietet der Benutzerin/dem Benutzer die Möglichkeit, den eigenen Körper und die daraus folgende Beziehung im Raum zu den geometrischen Objekten, die virtuell erzeugt werden,
-besser wahrzunehmen. 
-Ein System, bestehend aus mehreren Ebenen, ähnlich zu bekannter Photobearbeitungssoftware, wird verwendet, um Überlappungen in der Konstruktion der Objekte realistisch und verständlich darzustellen. Dies dient auch dazu, dass mehrere Benutzerinnen und Benutzer jeweils eine eigene Ansicht nutzen können und auch die Lehrer-Schüler-Interaktion besser abgebildet werden kann. 
-Drei möglich Benutzermodi (alle sehen alles, jeder und jede der Lernenden sehen nur die eigenen Konstruktionen oder ein Lehrermodus), existieren in einer frühen Version. \\
-In weiterer Entwicklungsarbeit wurden im Jahr 2003 neue Lernmodi eingeführt, die im Folgenden näher beschrieben werden: \\
+An Hardware stehen \emph{Head-mounted-Displays (HMDs)}, konventionelle Monitore und diverse Eingabegeräte zur Verfügung. Um Buttons, Sliders sowie andere Elemente in üblicher 2D-Grafik zu integrieren, existiert noch ein \emph{PIP}(\emph{personal interaction panel})  zusätzlich, um haptisches Feedback für die Benutzenden zu simulieren. Weiters werden Kopf und Hände mit einem ARTTrack1 Tracking-System verfolgt.
+Die Umsetzung mittels AR bietet der Benutzerin/dem Benutzer die Möglichkeit, den eigenen Körper und die daraus folgende Beziehung im Raum zu den virtuell-erzeugten geometrischen Objekten besser wahrzunehmen. 
+Ein aus mehreren Ebenen bestehendes System, ähnlich zu bekannter Photobearbeitungssoftware, wird verwendet, um Überlappungen in der Konstruktion der Objekte realistisch und verständlich darzustellen. Dies dient auch dazu, dass mehrere Benutzerinnen und Benutzer jeweils eine eigene Ansicht nutzen können und auch die Lehrer-Schüler-Interaktion besser abgebildet werden kann. 
+Drei mögliche Benutzermodi (alle sehen alles, jeder und jede der Lernenden sehen nur die eigenen Konstruktionen oder ein lehrender Modus) existieren in einer frühen Version. \\
+In weiterer Entwicklungsarbeit wurden im Jahr 2003 neue Lernmodi eingeführt, die im Folgenden näher beschrieben werden:
 \noindent \\
 \begin{itemize}
-\item Teacher-Mode 
-Ein Lehrer oder eine Lehrerin kann in diesem Modus einen oder mehr Lernende unterrichten, indem er/sie eine komplette Konstruktion mit all ihren Einzelschritten vorgibt. 
-\item Normal tutorial
-Hier wird den Lernenden ein Videtutorial mit allen notwendigen Schritten gezeigt, die diese dann reproduzieren sollen. 
-\item Auto-tutorial 
-Schülerinnen und Schüler können sich selbstständig mit den einzelnen Schritten beschäftigen und mittels text-to-speech System Erklärungen anhören. 
-\item Exam-mode 
+\item \emph{Teacher-mode}:
+Ein Lehrer oder eine Lehrerin kann in diesem Modus einen oder mehrere Lernende unterrichten, indem er/sie eine komplette Konstruktion mit all ihren Einzelschritten vorgibt. 
+\item \emph{Normal tutorial}:
+Hier wird den Lernenden ein Videotutorial mit allen notwendigen Schritten gezeigt, die diese dann reproduzieren sollen. 
+\item \emph{Auto-tutorial}:
+Schülerinnen und Schüler können sich selbstständig mit den einzelnen Schritten beschäftigen und mittels \emph{text-to-speech} System Erklärungen anhören. 
+\item \emph{Exam-mode}: 
 Die Lernenden sollen hier ohne Anleitung selbst Konstruktionen bauen und können diese am Ende mit einer vorgebenen Lösung vergleichen \cite{article}. 
-Um das Menü von Construct3D auf den HMDs gut lesbar zu machen und das Menü zu simplifizieren, wurden im Jahr 2006 entsprechende Anpassung vorgenommen. Auch die Anzahl an Funktionen hat seit  der ersten Version im Jahr 2002 zugenommen, weshalb das Menü reorganisiert werden musste \cite{1667626}. 
-\item Visualisierungstechniken: \\
-Zu den Visualisierungstechniken, wie sie in Construct3D verwendet werden, gehört auch die Verwendung von Transparenz um das Verständnis für die Konstruktion zu verbessern und eine Farbcodierung zur Unterscheidung der Nutzer\_innen. Derlei Anpassungen machen zwar Szenenverarbeitung und Rendering signifant teurer, was aber zugusnten der Benutzerfreundlichkeit gerne in Kauf genommen wurde \cite{1667626}. 
-\item Transparenz 
-Transparenz wird  immer wieder auch in technischen Zeichnungen und Computerspielen eingesetzt, um versteckte Objekte darzustellen. Mittels Transparenz lassen sich Tiefe als auch räumliche Beziehung darstellen. Erst ließ man die Benutzer\_innen selbst mittels Slider die transparente Bereiche auswählen, diese Idee wurde aber wieder verworfen, da sie zu Verwirrungen geführt hatte. Transparenz erschwert auch den Prozess des Renderings, dadurch werden manche Objekte nicht mehr richtig dargestellt \cite{1667626}. 
-\autoref{fig:transparency} \\
-Es besteht daher die Möglichkeit für die Nutzer\_innen, die Ansicht in den sogenannten \emph{wireframe-Modus} umzuschalten, was folglich bedeutet, dass nur eine Art Gitternetz-System die Form des Objekts, bzw. dessen Oberfläche markiert.  
-\item  Einführung eines Ebenensystems
-Um ein übersichtliches System über die Eingaben der Nutzer zu behalten, wurde ein Ebenensystem mit Farbschemata eingeführt. Man kann das System das hier umgesetzt wurde mit dem in der traditonellen Lehre vergleichen, wenn Lehrpersonen unterschiedliche Farben an der Tafel verwenden, um unterschiedliche Ebenen herauszustreichen. In der virtuellen Umgebung können diese Ebenen dann je nach Bedarf zu- und weggeschaltet werden. \cite{1667626}. 
-\item Vorschau und Highlighting 
-Kommt der oder die Lernende mit dem Stift in die Nähe eines Objekts, wird dieses Objekt hervorgehoben, was für die Nutzer\_innen bedeutet, dass das dieses Objekt ausgewählt werden kann. Nun kann dieses Objekt im Raum bewegt werden \cite{1667626}.  
+Um das Menü von Construct3D auf den HMDs gut lesbar zu machen und das Menü zu simplifizieren, wurden im Jahr 2006 entsprechende Anpassung vorgenommen. Auch die Anzahl an Funktionen hat seit  der ersten Version im Jahr 2002 zugenommen, weshalb das Menü reorganisiert werden musste \cite{1667626}. \\\end{itemize}
+\textbf{Visualisierungstechniken} \\
+Zu den Visualisierungstechniken, die in Construct3D verwendet werden, gehören die Verwendung von Transparenz, um das Verständnis für die Konstruktion zu verbessern, eine Farbcodierung zur Unterscheidung der Benutzer/innen, eine Trennung der Ebenen sowie eine automatische Vorschau neuer Objekte. Im Folgenden werden diese Techniken näher beschrieben. Derlei Anpassungen machen zwar Szenenverarbeitung und Rendering signifant teurer, was aber zugusnten der Benutzerfreundlichkeit gerne in Kauf genommen wurde \cite{1667626}. 
+\begin{itemize}
+\item Transparenz: 
+Diese wird  immer wieder auch in technischen Zeichnungen und Computerspielen eingesetzt, um versteckte Objekte darzustellen. Mittels Transparenz lassen sich Tiefe und andere räumliche Beziehungen darstellen (siehe Abb.1). Erst sollten die Benutzer/innen selbst mittels Slider die transparenten Bereiche auswählen. Diese Idee wurde aber verworfen, da sie zu Verwirrungen geführt hatte. Transparenz erschwert auch den Prozess des Renderings, wodurch manche Objekte nicht mehr richtig dargestellt werden können\cite{1667626}. 
+Es besteht daher die Möglichkeit für die Benutzer/innen, die Ansicht in den sogenannten \emph{Wireframe-mode} umzuschalten, was folglich bedeutet, dass nur eine Art von Gitternetz-System die Form des Objekts bzw. dessen Oberfläche markiert.  
+\item Farbcodierung und Ebenensystem:
+Um ein übersichtliches System über die Eingaben der benutzenden Personen zu behalten, wurde ein Ebenensystem mittels Aktiv- und Inaktiv-Modi mit Farbschemata eingeführt. Das umgesetzte System ist mit dem in der traditonellen Lehre vergleichbar, in der die Lehrkraft verschiedene Farben und Schattierungen an der Tafel verwenden kann, um unterschiedliche Ebenen herauszustreichen. In der virtuellen Umgebung können diese Ebenen zusätzlich je nach Bedarf zu- und weggeschaltet werden. \cite{1667626}. 
+\item Vorschau und Highlighting:
+Wenn eine Konstruktion mit den Eingabeparametern funktioniert, erfolgt eine visuelle Rückmeldung. Die Vorschaufunktion wird dann aktiviert, indem der Stift über ein Widget bewegt wird. Kommt der oder die Lernende mit dem Stift in die Nähe eines Objekts, wird dieses Objekt mit \emph{Wireframe-grid} hervorgehoben. Somit weiß die benutzende Person, dass dieses Objekt ausgewählt werden kann. Bei weiterem Nähern leuchtet die Farbe vom Objekt. Das deutet darauf hin, dass dieses Objekt nun im Raum bewegt werden kann\cite{1667626}.  
 \end{itemize}
-\textbf{Einsatz im Klassenzimmer} \\
-Es wurden Rucksäcke mit Rechnern ausgestattet, ein Tisch in der Mitte dient den Agierenden als Fixpunkt für die Zeichnungen. Alle Agierenden bekommen ein head-mounted-Display (HMD) mit Kamera und Handschuhen als Eingabegerät. Da alles batteriebetrieben ist und somit keine Kabel notwendig sind, kann sich jeder frei im Raum bewegen. 
-Um mehrere Lernende partizipieren zu lassen, kann eine Projektion der Konstruktionen auf eine Tafel abgebildet werden. (Siehe \autoref{samplefigure}). \\
-Das PIP (Personal Interaction Panel) und ein dazugehöriger Stift ermöglichen die Eingabe sowohl im dreidimensionalen, als auch im herkömmlichen zweidimensionalen Stil \cite{1667626}. 
 \begin{figure}[h]
 %placing with [tb][h][t]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/transparency}
-	\caption{Erfolgreich dargestellte Transparenz}
+	\caption{Erfolgreich dargestellte Transparenz \cite{1667626}}
 	\label{fig:transparency}
-\end{figure}
-
+\end{figure} 
+\noindent \textbf{Einsatz im Klassenzimmer} \\
+Es wurden Rucksäcke mit Rechnern ausgestattet. Ein Tisch in der Mitte dient den Agierenden als Fixpunkt für die Zeichnungen. Alle Agierenden bekommen ein \emph{head-mounted-Display} (HMD) mit Kamera und Handschuhen als Eingabegerät. Da alles batteriebetrieben ist und somit keine Kabel notwendig sind, kann sich jeder/jede frei im Raum bewegen. 
+Um mehrere Lernende partizipieren zu lassen, kann eine Projektion der Konstruktionen auf eine Tafel abgebildet werden. (Siehe \autoref{samplefigure}). \\
+Das PIP (\emph{Personal Interaction Panel}) und ein dazugehöriger Stift ermöglichen die Eingabe sowohl im dreidimensionalen, als auch im herkömmlichen zweidimensionalen Stil \cite{1667626}. 
 
 \begin{figure}[h]
 %placing with [tb][h][t]
 	\centering
 	\includegraphics[width=1\textwidth]{figures/classroom}
-	\caption{Augmented Classroom}
+	\caption{\emph{Augmented Classroom.} Bild nachgezeichnet basierend auf \cite{Kaufmann:2002:MGE:1242073.1242086} }
 	\label{fig:samplefigure}
 \end{figure}
 
 %\subsection{Computergrafik know-how}
-Entwickelt und forscht man an der Darstellung von virtuellen Objekten im Raum, so tun sich mitunter ungeahnte Schwierigkeiten auf, auf diese wird im Folgenden eingegangen.
+\noindent Entwickelt und forscht man an der Darstellung von virtuellen Objekten im Raum, tauschen mitunter ungeahnte Schwierigkeiten auf, auf diese im Folgenden eingegangen wird.
 \subsection{Statische und dynamische Geometrie}
-Analysen aus den ersten Forschungsergebnissen haben gezeigt, dass es signifikant schwieriger ist, vorgegebene Koordinaten in virtueller Realität zu finden und Punkte zu manipulieren, als im zweidimensionalen Raum. Aufgrund von Tremor (natürliches Zittern der Hände) und mangels Hand-Auge-Koordination ist es schwierig, einen Punkt genau zu treffen \cite{1667626}. 
-Wie mehrere Studien zeigen, bietet es sich in manchen Situation trotzdem an, auf eine zweidimensionale Darstellung zurückzukommen, da die 6 Freiheitsgrade in der Darstellung nicht immer von Vorteil sind \cite{Bowman:1999:ITC:930593}. 
-Die exakte Eingabe von Koordinaten ist allerdings notwendige Voraussetzung, um mittels dynamischer Geometrie Software starre Körper drehbar zu machen. Es sollte schließlich auch möglich sein, mehrere Objekte miteinander zu verbinden um ``was-wäre-wenn-Szenarios'' ausprobieren zu können. Mit traditionellen Methoden ist es wesentlich wichtiger, die Position des Objekts im Raum darstellen zu können, dieser Aspekt verliert im dreidimensionalen Raum etwas an Signifikanz \cite{1667626}. 
+Analysen aus den ersten Forschungsergebnissen haben gezeigt, dass es signifikant schwieriger als im zweidimensionalen Raum ist, vorgegebene Koordinaten in virtueller Realität zu finden und Punkte zu manipulieren. Aufgrund von Tremor (natürliches Zittern der Hände) und mangels Hand-Auge-Koordination ist es schwierig, einen Punkt genau zu treffen \cite{1667626}. 
+Wie mehrere Studien zeigen, bietet es sich in manchen Situationen trotzdem an, auf eine zweidimensionale Darstellung zurückzukommen, da die 6 Freiheitsgrade in der Darstellung nicht immer von Vorteil sind \cite{Bowman:1999:ITC:930593}. 
+Die exakte Eingabe von Koordinaten ist allerdings notwendige Voraussetzung, um mittels dynamischer Geometrie-Software starre Körper drehbar zu machen. Es sollte schließlich möglich sein, mehrere Objekte miteinander zu verbinden, um ,,was-wäre-wenn-Szenarios'' ausprobieren zu können. Mit traditionellen Methoden ist es wesentlich wichtiger, die Position des Objekts im Raum darstellen zu können. Dieser Aspekt verliert im dreidimensionalen Raum an Signifikanz \cite{1667626}. 
 \subsection{Nebenwirkungen - Simulator Sickness}
 Ähnlich zu der schon bekannten Motion-Sickness \cite{motionsickness}, die manchmal bei Videospielen oder bei Reisen mit dem Auto, Zug oder Schiff auftritt, die zu Übelkeit und Schwindelgefühlen führen kann, da der Gleichgewichtssinn im Innenohr die Informationen, die die Augen liefern, nicht schnell genug verarbeiten kann, wird dieser gestört und so es kann auch beim Arbeiten mit Construct3D zu einer Art Motion-Sickness, die hier allerdings
 Simulatur Sickness genannt wird, kommen.
 \noindent \\
-In der Evaluierung im Jahr 2003 wurde von einigen Lernenden über Simulator Sickness berichtet. 20 Minuten nach dem Beginn des Arbeitens in der virtuellen Umgebung tauchten Kopfschmerzen und Augenbelastungen bei einer Schülerin auf, trotzdem wollte sie damit weiterarbeiten. Nachträglich stellte sich heraus, dass die Zeiten für die kontinuierliche Arbeit mit einem HMD zu lang gewählt waren. Da negative Nebenwirkungen ein allgemeines potenzielles Problem bei der Arbeit mit HMDs darstellen und die subjektive Erfahrung derNutzer\_innen erheblich beeinflussen, sind sie für alle VR/AR-Anwendungen relevant, die diese Displays verwenden. Mögliche Gründe für diese Nebenwirkungen sind Akkomodationsprobleme, niedrige Bildfrequenz, Verzögerung oder schlechtsitzende Helme 
-Folglich wurde in der dritten Studie im Jahr 2005 die Trainingsdauer pro Einheit auf maximal 45 Minuten reduziert, der Hartplastikhelm durch einen leichteren Fahrradhelm ersetzt und von den Teilnehmenden selbstbestimmte Ruhezeiten eingeführt. Trotzdem spürten 75,56\% der 47 Teilnehmenden eine moderate Müdigkeit oder Erschöpfung und 61,36\% berichteten von einer leichten Augenbelastung. Einige hatten Kopfschmerzen (37,78\%) und Schwindelgefühl (35,56\%).Im Allgemeinen berichteten die meisten Teilnehmenden jedoch, dass sie keine schwerwiegenden Probleme hatten. Die meisten dieser Symptome könnten mit der Verwendung eines HMD zusammenhängen In Übereinstimmung mit den Beobachtungen und anderen Studien wurde empfohlen, die HMD-Nutzungszeit auf 20-30 Minuten pro Einheit zu beschränken  Basierend auf der Erfahrung trägt die Bildqualität von HMDs, insbesondere die Verzögerung und Qualität der Tracking-Daten, am meisten zu den berichteten Effekten bei \cite{Kaufmann_summaryof}.
+In der Evaluierung im Jahr 2003 wurde von einigen Lernenden über Simulator Sickness berichtet. 20 Minuten nach dem Beginn des Arbeitens in der virtuellen Umgebung tauchten Kopfschmerzen und Augenbelastungen bei einer Schülerin auf, trotzdem wollte sie damit weiterarbeiten. Nachträglich stellte sich heraus, dass die Zeiten für die kontinuierliche Arbeit mit einem HMD zu lang gewählt waren. Da negative Nebenwirkungen ein allgemeines potenzielles Problem bei der Arbeit mit HMDs darstellen und die subjektive Erfahrung der Nutzer/innen erheblich beeinflussen, sind sie für alle VR/AR-Anwendungen relevant, die diese Displays verwenden. Mögliche Gründe für diese Nebenwirkungen sind Akkomodationsprobleme, niedrige Bildfrequenz, Verzögerung oder schlechtsitzende Helme. 
+Folglich wurde in der dritten Studie im Jahr 2005 die Trainingsdauer pro Einheit auf maximal 45 Minuten reduziert, der Hartplastikhelm durch einen leichteren Fahrradhelm ersetzt und von den Teilnehmenden selbstbestimmte Ruhezeiten eingeführt. Trotzdem spürten 75,56\% der 47 Teilnehmenden eine moderate Müdigkeit oder Erschöpfung und 61,36\% berichteten von einer leichten Augenbelastung. Einige hatten Kopfschmerzen (37,78\%) und Schwindelgefühl (35,56\%). Im Allgemeinen berichteten die meisten Teilnehmenden jedoch, dass sie keine schwerwiegenden Probleme hatten. Die meisten dieser Symptome könnten mit der Verwendung eines HMD zusammenhängen. In Übereinstimmung mit den Beobachtungen und anderen Studien wurde empfohlen, die HMD-Nutzungszeit auf 20-30 Minuten pro Einheit zu beschränken.  Basierend auf der Erfahrung trägt die Bildqualität von HMDs, insbesondere die Verzögerung und Qualität der Tracking-Daten, am meisten zu den berichteten Effekten bei \cite{Kaufmann_summaryof}.
 
 \subsection{Evaluierungsergebnisse}
-Im Folgenden werden gesammelte Forschungsergebnisse aus dem Paper ``Summary of Usability Evaluations of an Educational Agumented Reality Application zusammengefasst: \\
-In einer ersten Evaluierung mit 14 Lernenden war eindeutig zu sehen, dass es nicht notwendig ist, den Schülerinnen und Schülern die Handhabung zu erklären und dass die Bereitschaft eine Umgebung der erweiterten Realität zu benutzen, auch besteht. Es konnte beobachtet werden, dass alle Teilnehmenden aber stolz auf ihre Konstruktionen waren und freudig ihr Werk rundherum begutachteten. Die Hand-Auge-Koordination war in erster Instanz noch etwas schwierig für die Versuchspersonen und alle hatten Probleme damit, Punkte an vorgegebene Koordinaten richtig zu setzen, woraufhin zusätzlich ein Raster eingebaut wurde \cite{Kaufmann:2002:MGE:1242073.1242086}.
-Aus den Evaluierungsergebnissen von 2003 lassen sich folgende Aspekte ableiten: \\
-Von technischer Seite gibt es noch Probleme mit der Benutzerfreundlichkeit von Hard,- und Software. Die Orientierung zwischen Benutzenden und konstruiertem Objekt muss verbessert werden. Weiters können noch Verbesserungen im Bereich des Wohlbefindends während der Verwendung und des kognitiven Verständnisses der Lernenden stattfinden.  Es lässt sich aber schon jetzt extrapolieren, dass ein messbarer Lernfortschritt mit der neuen Technologie erzielbar ist. \cite{article}. \\
-Im Jahr 2003 wurde eine Studie auf Basis von Interviews und dem standardisierten Usability-Fragebogen ISONORM 9241/10 durchgeführt \cite{Kaufmann_summaryof}. Eine Reihe von Trainingsübungen wurde entwickelt, die zum österreichischen deskriptiven Geometrie-Curriculum der 11. und 12. Klasse passen \cite{Kaufmann_summaryof}.  Daran arbeiteten die Teilnehmenden (9 Schüler, 6 Schülerinnen) mit Hilfe ihrer Lehrenden. Jede Person nahm an 5 Trainingseinheiten mit einer Dauer von insgesamt 6 Stunden teil. Die Bewertung danach zeigte, dass die von Lernenden hoch bewerteten Kategorien (siehe Abb. \label{stat1}) auch den subjektiv gesehenen höchsten Prioritäten einer Bildungsanwendung (einfach bedienbar, schnell erlernbar; ermutigend, neues auszuprobieren; konsistent und im Gedächtnis bleibend) entsprechen \cite{Kaufmann_summaryof}.\\
-Qualitative Forschung im Jahr 2006 hat ergeben, dass sowohl die ``Eignung zum Lernen'', als auch die ``Eignung zur Umsetzung der Aufgabe'' mit dem vorgegebenen Setting für die Testpersonen zur vollsten Zufriedenheit ausgefallen ist, was besonders wichtig für dieses Projekt ist. Auch insgesamt hat die Umfrage ergeben, dass die Benutzer\_innen mit den Möglichkeiten, sowie mit der Handhabung und der konsistenten Benutzungsmöglichkeit sehr zufrieden waren \cite{1667626}.
-\noindent \\
-\begin{figure}[t]
-%placing with [tb][h][t]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/stat1}
-	\caption{Usability Bewertungen von Lernenden}
-	\label{fig:stat1}
-\end{figure}
+In der ersten Evaluierung im Jahr 2000 mit 14 Lernenden war eindeutig zu sehen, dass es nicht notwendig ist, den Schülerinnen und Schülern die Handhabung zu erklären. Die Bereitschaft besteht, eine Umgebung der erweiterten Realität zu benutzen. Es konnte beobachtet werden, dass alle Teilnehmenden stolz auf ihre Konstruktionen waren und freudig ihr Werk rundherum begutachteten. Die Hand-Auge-Koordination war in erster Instanz noch schwierig für die Versuchspersonen. Alle hatten Probleme damit, Punkte an vorgegebene Koordinaten richtig zu setzen, woraufhin zusätzlich ein Raster eingebaut wurde \cite{Kaufmann:2002:MGE:1242073.1242086}.\\
+
+\noindent Im Jahr 2003 wurde eine Studie auf Basis von Interviews und dem standardisierten Usability-Fragebogen ISONORM 9241/10 durchgeführt \cite{Kaufmann_summaryof}. Eine Reihe von Trainingsübungen wurde entwickelt, die zum österreichischen deskriptiven Geometrie-Curriculum der 11. und 12. Klasse passen \cite{Kaufmann_summaryof}.  Daran arbeiteten die Teilnehmenden (9 Schüler, 6 Schülerinnen) mit Hilfe ihrer Lehrenden. Jede Person nahm an 5 Trainingseinheiten mit einer Dauer von insgesamt 6 Stunden teil. Die Bewertung danach zeigte, dass die von Lernenden hoch bewerteten Kategorien (siehe Abb. \label{stat1}3) auch den subjektiv gesehenen höchsten Prioritäten einer Bildungsanwendung entsprechen (einfach bedienbar, schnell erlernbar; ermutigend, neues auszuprobieren; konsistent und im Gedächtnis bleibend)\cite{Kaufmann_summaryof}. Sowohl die ,,Eignung zum Lernen'' als auch die ,,Eignung zur Umsetzung der Aufgabe'' sind mit dem vorgegebenen Setting für die Testpersonen zur vollsten Zufriedenheit ausgefallen \cite{1667626}.
 \begin{figure}[t]
 %placing with [tb][h][t]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/isonorm}
-	\caption{Statistik über Symptome während der Benutzung}
+	\caption{Ergebnisse des ISONORM Usability-Fragebogens in 6 Kategorien}
 	\label{fig:isonorm}
 \end{figure}
-Es wurden bessere Beschriftungen zu Construct3D hinzugefügt, sowie eine Hilfe-Box auf dem Panel, um alle Menüelemente zu erklären. Neben der neuen Strukturierung des Menüsystems wurde auch das visuelle Design von geometrischen Objekten verbessert  \cite{Kaufmann_summaryof}.  Eingeführt wurden Transparenz-Verwendung, konsistente Farbcodierung, Ebene-Trennung und automatische Vorschau neuer Objekte  \cite{Kaufmann_summaryof}. Nähere Informationen zu den Verbesserungen siehe \textit{Designing Immersive Virtual Reality for Geometry Education.}\\
-Die dritte Auswertung war im Jahr 2005  \cite{Kaufmann_summaryof}. Verglichen wurde das Lösen von geometrischen Problemen mit Construct3D mit einer pädagogischen Desktop-Anwendung namens CAD3D. Teilnehmenden waren österreichische Oberstufenschüler\_innen im Alter zwischen 16 und 19 Jahren (M = 17,49, SD = .79; 44 (48,4\%) männlich und 47 (51,6\%) weiblich) \cite{Kaufmann_summaryof}. Sie nahmen an 6 Trainingseinheiten teil, die 45 Minuten dauerten [4, S.665]. In beiden Gruppen betreute ein Tutor oder eine Tutorin zwei Lernenden beim Arbeiten an den Geometrieaufgaben  \cite{Kaufmann_summaryof}.. Zur Beurteilung der Benutzerfreundlichkeit wurden Fragenbogen entwickelt, die von 8 etablierten Usability-Fragebögen angepasst waren (7 Skalen (siehe Abb. \label{stat1}  insgesamt 28 Fragen)  \cite{Kaufmann_summaryof}..
-\noindent \\
-Die Analyse der Fragenbogen ergab, dass Construct3D ein hochgradig benutzerfreundliches System ist, das - aus Usability-Sicht - mehrere Vorteile gegenüber der traditionellen Desktop-basierten Anwendung aufweist \cite{Kaufmann_summaryof}. Die niedrigen Bewertungen für technische Aspekte deuten jedoch darauf hin, dass es noch Probleme bezüglich der technischen Robustheit gibt, die angegangen werden müssen \cite{Kaufmann_summaryof}. Seltene Systemabstürze und kleinere technische Probleme können die Motivation der Teilnehmer und die Benutzerfreundlichkeit des Systems beeinträchtigen. Construct3D sollte hauptsächlich für Lehrinhalte verwendet werden, die eine dynamische 3D-Geometrie verwenden oder die Visualisierung abstrakter Probleme erfordern \cite{Kaufmann_summaryof}. In Bezug auf die bevorzugte Trainingseinrichtung der Lernenden zwischen Construct3D und CAD3D gab es keine signifikanten Unterschiede. Die Mehrheit der Lernenden möchte Construct3D in der Schule einsetzen (ja = 64,44\%, eher ja = 26,67\%); 8,89\% möchten das System lieber nicht in der Schule einsetzen \cite{Kaufmann_summaryof}.  Die Kommentare zu den potenziellen Problemen beim Einsatz von Construct3D in Schulen betrafen vor allem fehlende Finanzierung und die Robustheit der Hardware und Software \cite{Kaufmann_summaryof}.\\
+\\Um die Selbstbeschreibbarkeit von Construct3D zu verbessern, wurden bessere Beschriftungen hinzugefügt, sowie eine Hilfe-Box auf dem Panel, um alle Menüelemente zu erklären. Neben der neuen Strukturierung des Menüsystems wurde auch das visuelle Design von geometrischen Objekten verbessert  \cite{Kaufmann_summaryof}.  Eingeführt wurden Transparenz-Verwendung, konsistente Farbcodierung, Ebene-Trennung und automatische Vorschau neuer Objekte \cite{Kaufmann_summaryof}, wie es in \textbf{Visualisierungstechniken} vorgestellt wird.\\
+Aus den Evaluierungsergebnissen von 2003 lassen sich folgende Aspekte ableiten: Von technischer Seite sind noch Probleme mit der Benutzerfreundlichkeit bezüglich Hard- und Software vorhanden. Die Orientierung zwischen Benutzenden und konstruiertem Objekt muss verbessert werden. Weiters können noch Verbesserungen im Bereich des Wohlbefindends bezüglich der Verwendung und des kognitiven Verständnisses der Lernenden stattfinden. Es lässt sich jedoch extrapolieren, dass ein messbarer Lernfortschritt mit der neuen Technologie erzielbar ist \cite{article}. \\
+
+\noindent Die dritte Auswertung war im Jahr 2005 \cite{Kaufmann_summaryof}. Verglichen wurde das Lösen von geometrischen Problemen mit Construct3D mit einer pädagogischen Desktop-Anwendung namens CAD3D. Teilnehmenden waren österreichische Oberstufenschüler\_innen im Alter zwischen 16 und 19 Jahren (M = 17,49, SD = .79; 44 (48,4\%) männlich und 47 (51,6\%) weiblich) \cite{Kaufmann_summaryof}. Sie nahmen an 6 Trainingseinheiten teil, die 45 Minuten dauerten [4, S.665]. In beiden Gruppen betreute ein Tutor oder eine Tutorin zwei Lernenden beim Arbeiten an den Geometrieaufgaben  \cite{Kaufmann_summaryof}. Zur Beurteilung der Benutzerfreundlichkeit wurden Fragenbogen entwickelt, die von 8 etablierten Usability-Fragebögen angepasst waren (Siehe Abb. \label{stat1}4)  \cite{Kaufmann_summaryof}.
+\begin{figure}[t]
+%placing with [tb][h][t]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/stat1}
+	\caption{Usability-Bewertungen von Lernenden bezüglich der Verwendung von Construct3D und CAD3D (4-Punkt-Likert-Skala; 1-min, 4-max = am besten; Fehlerbalken \pm 1,96 * Standardfehler)}
+	\label{fig:stat1}
+\end{figure}
+Die Analyse der Fragenbogen ergab, dass Construct3D ein hochgradig benutzerfreundliches System ist, das - aus Usability-Sicht - mehrere Vorteile gegenüber der traditionellen Desktop-basierten Anwendung aufweist \cite{Kaufmann_summaryof}. Die niedrigen Bewertungen für technische Aspekte deuten jedoch darauf hin, dass es noch Probleme bezüglich der technischen Robustheit gibt, die angegangen werden müssen \cite{Kaufmann_summaryof}. Seltene Systemabstürze und kleinere technische Probleme können die Motivation der Teilnehmenden und die Benutzerfreundlichkeit des Systems beeinträchtigen. Construct3D sollte hauptsächlich für Lehrinhalte verwendet werden, die eine dynamische 3D-Geometrie verwenden oder die Visualisierung abstrakter Probleme erfordern \cite{Kaufmann_summaryof}. In Bezug auf die bevorzugte Trainingseinrichtung der Lernenden zwischen Construct3D und CAD3D gab es keine signifikanten Unterschiede. Die Mehrheit der Lernenden möchte Construct3D in der Schule einsetzen (ja = 64,44\%, eher ja = 26,67\%), 8,89\% möchten das System lieber nicht in der Schule einsetzen \cite{Kaufmann_summaryof}.  Die Kommentare zu den potenziellen Problemen beim Einsatz von Construct3D in Schulen betrafen vor allem fehlende Finanzierung und die Robustheit der Hardware und Software \cite{Kaufmann_summaryof}.\\
 
 \section{Zusammenfassung}
-Zusammenfassend lässt sich sagen, dass die Forschung auf dem Gebiet der virtuellen und erweiterten Realität für die Aus- und Weiterbildung signifikant ist, da der traditionelle Frontalunterricht eher nicht mehr zeitgemäß ist, da wir uns im sogenannten ``Expierence Age'' befinden. Diese Generation an Lernenden kommt bereits sehr früh mit neuen Medien als auch dem Internet in Kontakt und lernt anders als es noch frühere Generationen getan haben \cite{Hu-Au}. \\
-Hannes Kaufmann hat mit seiner Forschung schon sehr früh einen wichtigen Beitrag zur Fortentwicklung von Lehrmethoden und der Entwicklung eines modernen Klassenzimmers beigetragen. 
+Zusammenfassend lässt sich sagen, dass die Forschung auf dem Gebiet der virtuellen und erweiterten Realität für die Aus- und Weiterbildung signifikant ist, da der traditionelle Frontalunterricht nicht mehr zeitgemäß ist, da wir uns im sogenannten ``Expierence Age'' befinden. Diese Generation an Lernenden kommt bereits sehr früh mit neuen Medien als auch dem Internet in Kontakt und lernt anders als den früheren Generationen gewohnt ist \cite{Hu-Au}. \\
+Dr. Hannes Kaufmann hat mit seiner Forschung schon sehr früh einen wichtigen Beitrag zur Fortentwicklung von Lehrmethoden und der Entwicklung eines modernen Klassenzimmers beigetragen. 
 Die Konzepte lassen sich auch auf Bereiche der Erwachsenenbildung und den Begriff ``Lifelong-learning'' anwenden. \\
-Im Moment gibt es bereits sehr viele reale Anwendungen, nicht nur den Bildungssektor betreffend, die mittels AR realisiert wurden, weniger die mittels VR realisiert wurden. 
+Im Moment gibt es bereits sehr viele reale Anwendungen, nicht nur den Bildungssektor betreffend. Sie werden mehr mittels AR als VR realisiert.
 
 %\section{Literaturverweise}
 \label{sec:bib}
