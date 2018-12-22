@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 23:13
 entering extended mode
 **./seminararbeit.tex
 (seminararbeit.tex
@@ -1062,11 +1062,7 @@ Package biblatex Info: ... file 'german.lbx' found.
 ("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\german.l
 bx"
 File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)) (seminararbeit.aux
-
-LaTeX Warning: Label `stat1' multiply defined.
-
-)
+)) (seminararbeit.aux)
 \openout1 = `seminararbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -1083,8 +1079,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- ("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
-"
+
+("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count355
 \scratchdimen=\dimen189
@@ -1125,16 +1121,6 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'seminararbeit.bbl' found.
  (seminararbeit.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with '1667626':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Kaufmann:2002:MGE:1242073.1242086':
-(biblatex)                - Can't use 'location' + 'address'.
-
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Edu':
@@ -1275,7 +1261,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
  []
 
 [7]
-<figures/transparency.png, id=222, 597.23125pt x 526.96875pt>
+<figures/transparency.png, id=223, 597.23125pt x 526.96875pt>
 File: figures/transparency.png Graphic file (type png)
 <use figures/transparency.png>
 Package pdftex.def Info: figures/transparency.png  used on input line 194.
@@ -1284,10 +1270,7 @@ Package pdftex.def Info: figures/transparency.png  used on input line 194.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `samplefigure' on page 8 undefined on input line 200.
-
-<figures/classroom.png, id=226, 806.01125pt x 493.845pt>
+<figures/classroom.png, id=228, 806.01125pt x 493.845pt>
 File: figures/classroom.png Graphic file (type png)
 <use figures/classroom.png>
 Package pdftex.def Info: figures/classroom.png  used on input line 206.
@@ -1304,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [10 <./figures/classroom.png>]
-<figures/isonorm.png, id=257, 821.0675pt x 412.54124pt>
+<figures/isonorm.png, id=260, 821.0675pt x 412.54124pt>
 File: figures/isonorm.png Graphic file (type png)
 <use figures/isonorm.png>
 Package pdftex.def Info: figures/isonorm.png  used on input line 231.
@@ -1315,7 +1298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--237
  []
 
 [11 <./figures/isonorm.png>]
-<figures/stat1.png, id=273, 893.3375pt x 607.26875pt>
+<figures/stat1.png, id=277, 893.3375pt x 607.26875pt>
 File: figures/stat1.png Graphic file (type png)
 <use figures/stat1.png>
 Package pdftex.def Info: figures/stat1.png  used on input line 242.
@@ -1349,13 +1332,19 @@ Overfull \hbox (34.6739pt too wide) in paragraph at lines 259--259
 d Ap-p-li-ca-ti-on\. AAI9953819.
  []
 
+[14]
+Overfull \hbox (32.27823pt too wide) in paragraph at lines 259--259
+\OT1/cmr/m/n/10 the Po-ten-ti-al Ap-p-li-ca-ti-ons in the Te-a-ching/Lear-ning 
+Pro-cess\. In: Band EDU2017-
+ []
+
 
 Overfull \hbox (17.09003pt too wide) in paragraph at lines 259--259
 []\OT1/cmr/m/n/10 Kangdon Lee. []  Aug-men-ted Rea-li-ty in Edu-ca-ti-on and Tr
 ai-ning\. In: \OT1/cmr/m/it/10 TechTrends
  []
 
-[14] [15]
+[15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (seminararbeit.aux)
@@ -1363,22 +1352,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `seminararbeit.out' has not changed.
 (rerunfilecheck)             Checksum: F554CACA0F119B189E37262AD5DABE4A;1070.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'seminararbeit.run.xml'.
 \openout1 = `seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26887 strings out of 492970
- 513861 string characters out of 3127925
- 828402 words of memory out of 3000000
- 30296 multiletter control sequences out of 15000+200000
+ 26883 strings out of 492970
+ 513358 string characters out of 3127925
+ 829402 words of memory out of 3000000
+ 30292 multiletter control sequences out of 15000+200000
  12037 words of font info for 42 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  55i,9n,66p,1457b,2189s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1402,9 +1384,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Yi/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 /Users/Yi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb>
-Output written on seminararbeit.pdf (17 pages, 810488 bytes).
+Output written on seminararbeit.pdf (17 pages, 814130 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
+ 399 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

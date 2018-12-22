@@ -53,27 +53,6 @@
     \field{urlyear}{2018}
   \endentry
 
-  \entry{Klampfer}{inproceedings}{}
-    \name{author}{1}{}{%
-      {{hash=KA}{%
-         family={(2016).},
-         familyi={\bibinitperiod},
-         given={Klampfer\bibnamedelima Alfred.},
-         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KA1}
-    \strng{fullhash}{KA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{booktitle}{Athens: ATINER'S Conference Paper Series. EDU2017-2214.
-  1-25.}
-    \field{title}{Virtual/Augmented Reality in Education. Analysis of the
-  Potential Applications in the Teaching/Learning Process.}
-  \endentry
-
   \entry{Bowman:1999:ITC:930593}{thesis}{}
     \name{author}{1}{}{%
       {{hash=BDA}{%
@@ -112,14 +91,27 @@
          giveni={M\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
     \strng{namehash}{BM1}
     \strng{fullhash}{BM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{B}
     \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1007/978-3-540-85118-9_2
+    \endverb
     \field{isbn}{978-3-540-85118-9}
-    \field{title}{Virtuelle Realität}
+    \field{title}{Virtuelle Realit{\"a}t}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-3-540-85118-9_2
+    \endverb
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2009}
   \endentry
 
   \entry{craig_2013}{book}{}
@@ -127,12 +119,12 @@
       {{hash=CAB}{%
          family={Craig},
          familyi={C\bibinitperiod},
-         given={Alan\bibnamedelima B},
+         given={Alan\bibnamedelima B.},
          giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Morgan Kaufmann}%
+      {Morgan Kaufmann Publishers}%
     }
     \strng{namehash}{CAB1}
     \strng{fullhash}{CAB1}
@@ -144,32 +136,7 @@
     \field{year}{2013}
   \endentry
 
-  \entry{Hu-Au}{article}{}
-    \name{author}{2}{}{%
-      {{hash=E}{%
-         family={E.},
-         familyi={E\bibinitperiod},
-      }}%
-      {{hash=LJ}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={J.J.\bibnamedelima (2017)},
-         giveni={J\bibinitperiod\bibinitdelim \bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ELJ1}
-    \strng{fullhash}{ELJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{booktitle}{Int. J. Innovation in Education, Vol. 4, No.4,
-  pp.215-226}
-    \field{title}{Virtual reality in education: a tool for learning in the
-  experience age}
-  \endentry
-
-  \entry{GittlerDifferentialTO}{inproceedings}{}
+  \entry{GittlerDifferentialTO}{article}{}
     \name{author}{2}{}{%
       {{hash=GG}{%
          family={Gittler},
@@ -190,8 +157,46 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{title}{Differential Transfer of Learning : Effects of Instruction in
-  Descriptive Geometry on Spatial Test Performance}
+    \field{number}{1}
+    \field{pages}{71\bibrangedash 84}
+    \field{title}{Differential transfer of learning: Effects of instruction in
+  descriptive geometry on spatial test performance}
+    \field{volume}{2}
+    \field{journaltitle}{Journal of Geometry and Graphics}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Hu-Au}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HAE}{%
+         family={Hu-Au},
+         familyi={H\bibinithyphendelim A\bibinitperiod},
+         given={Elliot},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Joey\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAELJJ1}
+    \strng{fullhash}{HAELJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1504/ijiie.2017.10012691
+    \endverb
+    \field{number}{4}
+    \field{pages}{215}
+    \field{title}{Virtual reality in education: a tool for learning in the
+  experience age}
+    \field{volume}{4}
+    \field{journaltitle}{International Journal of Innovation in Education}
+    \field{year}{2017}
   \endentry
 
   \entry{article}{article}{}
@@ -210,6 +215,8 @@
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{title}{Collaborative Augmented Reality in Education}
+    \field{journaltitle}{Institute of Software Technology and Interactive
+  Systems, Vienna University of Technology}
     \field{month}{03}
     \field{year}{2003}
   \endentry
@@ -223,7 +230,7 @@
          giveni={H\bibinitperiod},
       }}%
       {{hash=DA}{%
-         family={Duenser},
+         family={D{\"{u}}nser},
          familyi={D\bibinitperiod},
          given={Andreas},
          giveni={A\bibinitperiod},
@@ -235,11 +242,18 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{booktitle}{IN VIRTUAL REALITY, LECTURE NOTES IN COMPUTER SCIENCE
-  4563}
+    \field{booktitle}{Virtual Reality, Second International Conference, {ICVR}
+  2007, Held as part of {HCI} International 2007, Beijing, China, July 22-27,
+  2007, Proceedings}
+    \verb{doi}
+    \verb 10.1007/978-3-540-73335-5\_71
+    \endverb
     \field{pages}{660\bibrangedash 669}
     \field{title}{Summary of Usability Evaluations of an Educational Augmented
   Reality Application}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-3-540-73335-5\_71
+    \endverb
     \field{year}{2007}
   \endentry
 
@@ -258,27 +272,23 @@
          giveni={D\bibinitperiod},
       }}%
     }
-    \keyw{Geometry education;computer supported collaborative work;augmented
-  reality;user interface design;Virtual reality;Computer science education;User
-  interfaces;Computational geometry;Collaborative work;Augmented
-  reality;Educational technology;Computer interfaces;Information
-  geometry;Mathematics;Geometry education;computer supported collaborative
-  work;augmented reality;user interface design}
     \strng{namehash}{KHSD1}
     \strng{fullhash}{KHSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{booktitle}{IEEE Virtual Reality Conference (VR 2006)}
+    \field{booktitle}{{IEEE} Virtual Reality Conference, {VR} 2006, Alexandria,
+  Virginia, USA, March 25-29, 2006}
     \verb{doi}
     \verb 10.1109/VR.2006.48
     \endverb
-    \field{issn}{1087-8270}
     \field{pages}{51\bibrangedash 58}
     \field{title}{Designing Immersive Virtual Reality for Geometry Education}
+    \verb{url}
+    \verb https://doi.org/10.1109/VR.2006.48
+    \endverb
     \field{year}{2006}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Kaufmann:2002:MGE:1242073.1242086}{inproceedings}{}
@@ -296,37 +306,28 @@
          giveni={D\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {ACM}%
-    }
-    \keyw{augmented reality, geometry education, mathematics education, spatial
-  intelligence}
     \strng{namehash}{KHSD1}
     \strng{fullhash}{KHSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{booktitle}{ACM SIGGRAPH 2002 Conference Abstracts and Applications}
+    \field{booktitle}{Proceedings of the 29th International Conference on
+  Computer Graphics and Interactive Techniques, {SIGGRAPH} 2002, San Antonio,
+  Texas, USA, July 21-26, 2002, Abstracts and Applications}
     \verb{doi}
     \verb 10.1145/1242073.1242086
     \endverb
-    \field{isbn}{1-58113-525-4}
     \field{pages}{37\bibrangedash 41}
-    \field{series}{SIGGRAPH '02}
-    \field{title}{Mathematics and Geometry Education with Collaborative
-  Augmented Reality}
+    \field{title}{Mathematics and geometry education with collaborative
+  augmented reality}
     \verb{url}
-    \verb http://doi.acm.org/10.1145/1242073.1242086
+    \verb https://doi.org/10.1145/1242073.1242086
     \endverb
-    \list{location}{1}{%
-      {San Antonio, Texas}%
-    }
     \field{year}{2002}
-    \warn{\item Can't use 'location' + 'address'}
   \endentry
 
-  \entry{unknown}{misc}{}
+  \entry{unknown}{inproceedings}{}
     \name{author}{4}{}{%
       {{hash=KH}{%
          family={Kaufmann},
@@ -359,10 +360,37 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
+    \field{booktitle}{Proceedings of the Virtual Reality International
+  Conference (VRIC)}
+    \field{pages}{25\bibrangedash 34}
     \field{title}{Improving Spatial Abilities by Geometry Education in
   Augmented Reality - Application and Evaluation Design Proceedings}
     \field{month}{01}
     \field{year}{2005}
+  \endentry
+
+  \entry{Klampfer}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Klampfer},
+         familyi={K\bibinitperiod},
+         given={Alfred},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{1\bibrangedash 25}
+    \field{title}{Virtual/Augmented Reality in Education. Analysis of the
+  Potential Applications in the Teaching/Learning Process}
+    \field{volume}{EDU2017-2214}
+    \field{journaltitle}{ATINER'S Conference Paper Series}
+    \field{month}{06}
+    \field{year}{2017}
   \endentry
 
   \entry{Edu}{article}{}
@@ -461,7 +489,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {John Wiley}%
+      {John Wiley \& sons}%
     }
     \strng{namehash}{MT1}
     \strng{fullhash}{MT1}
@@ -488,17 +516,6 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-    \field{abstract}{%
-    Zahlreiche Studien haben nachgewiesen, dass strukturiertes und betreutes
-  ophthalmologisches Simulatortraining zur Verbesserung der
-  ophthalmochirurgischen Ausbildung beitr{\"a}gt und damit das Lernen
-  beschleunigt. Um die Sicherheit der Patienten zu erh{\"o}hen, sollte man die
-  Operationssimulatoren in die traditionelle Ausbildung einf{\"u}hren. Die
-  vorliegende {\"U}bersichtsarbeit versucht unser derzeitiges Wissen {\"u}ber
-  ophthalmochirurgische Operationssimulatoren als Trainings- und
-  Bewertungssystem in der ophthalmologischen Aus- und Weiterbildung
-  zusammenzufassen.%
-    }
     \verb{doi}
     \verb 10.1007/s00717-013-0193-2
     \endverb
