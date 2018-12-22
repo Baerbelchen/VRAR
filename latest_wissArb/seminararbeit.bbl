@@ -122,6 +122,28 @@
     \field{title}{Virtuelle Realität}
   \endentry
 
+  \entry{craig_2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CAB}{%
+         family={Craig},
+         familyi={C\bibinitperiod},
+         given={Alan\bibnamedelima B},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Morgan Kaufmann}%
+    }
+    \strng{namehash}{CAB1}
+    \strng{fullhash}{CAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Understanding augmented reality}
+    \field{year}{2013}
+  \endentry
+
   \entry{Hu-Au}{article}{}
     \name{author}{2}{}{%
       {{hash=E}{%
@@ -170,44 +192,6 @@
     \field{sortinithash}{G}
     \field{title}{Differential Transfer of Learning : Effects of Instruction in
   Descriptive Geometry on Spatial Test Performance}
-  \endentry
-
-  \entry{1667626}{inproceedings}{}
-    \name{author}{2}{}{%
-      {{hash=KH}{%
-         family={Kaufmann},
-         familyi={K\bibinitperiod},
-         given={H.},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=SD}{%
-         family={Schmalstieg},
-         familyi={S\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \keyw{Geometry education;computer supported collaborative work;augmented
-  reality;user interface design;Virtual reality;Computer science education;User
-  interfaces;Computational geometry;Collaborative work;Augmented
-  reality;Educational technology;Computer interfaces;Information
-  geometry;Mathematics;Geometry education;computer supported collaborative
-  work;augmented reality;user interface design}
-    \strng{namehash}{KHSD1}
-    \strng{fullhash}{KHSD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{booktitle}{IEEE Virtual Reality Conference (VR 2006)}
-    \verb{doi}
-    \verb 10.1109/VR.2006.48
-    \endverb
-    \field{issn}{1087-8270}
-    \field{pages}{51\bibrangedash 58}
-    \field{title}{Designing Immersive Virtual Reality for Geometry Education}
-    \field{year}{2006}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{article}{article}{}
@@ -259,6 +243,44 @@
     \field{year}{2007}
   \endentry
 
+  \entry{1667626}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Hannes},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Schmalstieg},
+         familyi={S\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Geometry education;computer supported collaborative work;augmented
+  reality;user interface design;Virtual reality;Computer science education;User
+  interfaces;Computational geometry;Collaborative work;Augmented
+  reality;Educational technology;Computer interfaces;Information
+  geometry;Mathematics;Geometry education;computer supported collaborative
+  work;augmented reality;user interface design}
+    \strng{namehash}{KHSD1}
+    \strng{fullhash}{KHSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{booktitle}{IEEE Virtual Reality Conference (VR 2006)}
+    \verb{doi}
+    \verb 10.1109/VR.2006.48
+    \endverb
+    \field{issn}{1087-8270}
+    \field{pages}{51\bibrangedash 58}
+    \field{title}{Designing Immersive Virtual Reality for Geometry Education}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Kaufmann:2002:MGE:1242073.1242086}{inproceedings}{}
     \name{author}{2}{}{%
       {{hash=KH}{%
@@ -279,8 +301,8 @@
     }
     \keyw{augmented reality, geometry education, mathematics education, spatial
   intelligence}
-    \strng{namehash}{KHSD2}
-    \strng{fullhash}{KHSD2}
+    \strng{namehash}{KHSD1}
+    \strng{fullhash}{KHSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
@@ -341,6 +363,157 @@
   Augmented Reality - Application and Evaluation Design Proceedings}
     \field{month}{01}
     \field{year}{2005}
+  \endentry
+
+  \entry{Edu}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Kangdon},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LK1}
+    \strng{fullhash}{LK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1007/s11528-012-0559-3
+    \endverb
+    \field{number}{2}
+    \field{pages}{13–21}
+    \field{title}{Augmented Reality in Education and Training}
+    \field{volume}{56}
+    \field{journaltitle}{TechTrends}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Feuerwehr}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=MA}{%
+         family={Mossel},
+         familyi={M\bibinitperiod},
+         given={Annette},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Froeschl},
+         familyi={F\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sch{\"{o}}nauer},
+         familyi={S\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Peer},
+         familyi={P\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={G{\"{o}}llner},
+         familyi={G\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Hannes},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA+1}
+    \strng{fullhash}{MAFMSCPAGJKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{2017 {IEEE} Virtual Reality, {VR} 2017, Los Angeles, CA,
+  USA, March 18-22, 2017}
+    \verb{doi}
+    \verb 10.1109/VR.2017.7892324
+    \endverb
+    \field{pages}{357\bibrangedash 358}
+    \field{title}{VROnSite: Towards immersive training of first responder squad
+  leaders in untethered virtual reality}
+    \verb{url}
+    \verb https://doi.org/10.1109/VR.2017.7892324
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{mullen_2011}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MT}{%
+         family={Mullen},
+         familyi={M\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley}%
+    }
+    \strng{namehash}{MT1}
+    \strng{fullhash}{MT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Prototyping augmented reality}
+    \field{year}{2011}
+  \endentry
+
+  \entry{augen}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PD}{%
+         family={Pahor},
+         familyi={P\bibinitperiod},
+         given={Du{\v{s}}ica},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PD1}
+    \strng{fullhash}{PD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Zahlreiche Studien haben nachgewiesen, dass strukturiertes und betreutes
+  ophthalmologisches Simulatortraining zur Verbesserung der
+  ophthalmochirurgischen Ausbildung beitr{\"a}gt und damit das Lernen
+  beschleunigt. Um die Sicherheit der Patienten zu erh{\"o}hen, sollte man die
+  Operationssimulatoren in die traditionelle Ausbildung einf{\"u}hren. Die
+  vorliegende {\"U}bersichtsarbeit versucht unser derzeitiges Wissen {\"u}ber
+  ophthalmochirurgische Operationssimulatoren als Trainings- und
+  Bewertungssystem in der ophthalmologischen Aus- und Weiterbildung
+  zusammenzufassen.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00717-013-0193-2
+    \endverb
+    \field{issn}{1613-7523}
+    \field{number}{6}
+    \field{pages}{269\bibrangedash 273}
+    \field{title}{Virtuelle Realit{\"a}t und Simulation f{\"u}r die
+  ophthalmochirurgische Ausbildung}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00717-013-0193-2
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Spektrum der Augenheilkunde}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

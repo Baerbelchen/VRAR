@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 21:44
 entering extended mode
 **./seminararbeit.tex
 (seminararbeit.tex
@@ -1135,6 +1135,16 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Kaufmann:2002:MGE:1242073.1242086':
 (biblatex)                - Can't use 'location' + 'address'.
 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Edu':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'augen':
+(biblatex)                - Invalid format of field 'month'.
+
 )
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
@@ -1221,9 +1231,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 133.
 
-Overfull \hbox (3.87715pt too wide) in paragraph at lines 133--134
-\OT1/cmr/m/n/10 f[]ur Netz-haut-un-ter-su-chungs-trai-nings auch Vi-treo-re-tin
-al-trai-nings-mo-du-le (Ope-
+Overfull \hbox (18.05779pt too wide) in paragraph at lines 133--134
+\OT1/cmr/m/n/10 mo-du-le (Ope-ra-ti-ons-trai-nings am hin-te-ren Au-gen-ab-schn
+itt) und Ka-ta-rakt(Grauer
  []
 
 [4]
@@ -1265,7 +1275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
  []
 
 [7]
-<figures/transparency.png, id=180, 597.23125pt x 526.96875pt>
+<figures/transparency.png, id=222, 597.23125pt x 526.96875pt>
 File: figures/transparency.png Graphic file (type png)
 <use figures/transparency.png>
 Package pdftex.def Info: figures/transparency.png  used on input line 194.
@@ -1277,7 +1287,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `samplefigure' on page 8 undefined on input line 200.
 
-<figures/classroom.png, id=184, 806.01125pt x 493.845pt>
+<figures/classroom.png, id=226, 806.01125pt x 493.845pt>
 File: figures/classroom.png Graphic file (type png)
 <use figures/classroom.png>
 Package pdftex.def Info: figures/classroom.png  used on input line 206.
@@ -1294,7 +1304,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [10 <./figures/classroom.png>]
-<figures/isonorm.png, id=215, 821.0675pt x 412.54124pt>
+<figures/isonorm.png, id=257, 821.0675pt x 412.54124pt>
 File: figures/isonorm.png Graphic file (type png)
 <use figures/isonorm.png>
 Package pdftex.def Info: figures/isonorm.png  used on input line 231.
@@ -1305,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--237
  []
 
 [11 <./figures/isonorm.png>]
-<figures/stat1.png, id=231, 893.3375pt x 607.26875pt>
+<figures/stat1.png, id=273, 893.3375pt x 607.26875pt>
 File: figures/stat1.png Graphic file (type png)
 <use figures/stat1.png>
 Package pdftex.def Info: figures/stat1.png  used on input line 242.
@@ -1319,24 +1329,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--247
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [12 <./figures/stat1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 [13]
-Overfull \hbox (34.6739pt too wide) in paragraph at lines 257--257
+Overfull \hbox (34.6739pt too wide) in paragraph at lines 259--259
 \OT1/cmr/m/n/10 mer-si-ve Vir-tu-al En-vi-ron-ments: De-sign, Eva-lua-ti-on, an
 d Ap-p-li-ca-ti-on\. AAI9953819.
  []
 
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+
+Overfull \hbox (17.09003pt too wide) in paragraph at lines 259--259
+[]\OT1/cmr/m/n/10 Kangdon Lee. []  Aug-men-ted Rea-li-ty in Edu-ca-ti-on and Tr
+ai-ning\. In: \OT1/cmr/m/it/10 TechTrends
+ []
+
+[14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (seminararbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
 Package rerunfilecheck Info: File `seminararbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 808E5F5484E75F328F89B0A22DEA71DF;1072.
+(rerunfilecheck)             Checksum: F554CACA0F119B189E37262AD5DABE4A;1070.
 
 
 LaTeX Warning: There were undefined references.
@@ -1349,10 +1375,10 @@ Package logreq Info: Writing requests to 'seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26870 strings out of 492970
- 513375 string characters out of 3127925
+ 26887 strings out of 492970
+ 513861 string characters out of 3127925
  828402 words of memory out of 3000000
- 30285 multiletter control sequences out of 15000+200000
+ 30296 multiletter control sequences out of 15000+200000
  12037 words of font info for 42 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  55i,9n,66p,1457b,2189s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1376,9 +1402,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Yi/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 /Users/Yi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb>
-Output written on seminararbeit.pdf (16 pages, 798976 bytes).
+Output written on seminararbeit.pdf (17 pages, 810488 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
