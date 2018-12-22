@@ -9,22 +9,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Einsatzgebiete}{2}{section.1.2}
+\contentsline {section}{\numberline {2}Einsatzgebiete}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Lernen im Kontext des 21. Jahrhunderts}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.1}Aus- und Weiterbildung}{4}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Von der Zweidimensionalit\IeC {\"a}t in die dritte Dimension}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.2}Lernen im Schulunterricht des 21. Jahrhunderts}{5}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Virtuelle und erweiterte Realit\IeC {\"a}t im Geometrieunterricht}{4}{section.1.3}
+\contentsline {subsection}{\numberline {2.3}Von der Zweidimensionalit\IeC {\"a}t in die dritte Dimension}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Motivation}{4}{subsection.1.3.1}
+\contentsline {section}{\numberline {3}Virtuelle und erweiterte Realit\IeC {\"a}t im Geometrieunterricht}{6}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Entwicklung des vr/ar-basierten Lernsystems \emph {Construc3D} }{5}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {3.1}Motivation}{6}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Statische und dynamische Geometrie}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {3.2}Entwicklung des vr/ar-basierten Lernsystems \emph {Construc3D} }{6}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Nebenwirkungen - Simulator Sickness}{8}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {3.3}Statische und dynamische Geometrie}{9}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Evaluierungsergebnisse}{9}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {3.4}Nebenwirkungen - Simulator Sickness}{9}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Zusammenfassung}{11}{section.1.4}
+\contentsline {subsection}{\numberline {3.5}Evaluierungsergebnisse}{11}{subsection.1.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Zusammenfassung}{13}{section.1.4}
