@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.19)  22 DEC 2018 20:00
 entering extended mode
 **./seminararbeit.tex
 (seminararbeit.tex
@@ -1124,13 +1124,24 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'seminararbeit.bbl' found.
- (seminararbeit.bbl)
+ (seminararbeit.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '1667626':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Kaufmann:2002:MGE:1242073.1242086':
+(biblatex)                - Can't use 'location' + 'address'.
+
+)
 Package biblatex Info: Reference section=0 on input line 40.
 Package biblatex Info: Reference segment=0 on input line 40.
 \AtBeginShipoutBox=\box96
 Package hyperref Info: Link coloring OFF on input line 40.
-
-("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Users\Yi\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlest
@@ -1181,42 +1192,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--95
  []
 
 
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'vr' on page 1 undefined on input line 97.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
@@ -1258,9 +1233,6 @@ r f[]ur be-rufst[]atige
  []
 
 
-LaTeX Warning: Citation '1667626' on page 5 undefined on input line 152.
-
-
 Overfull \hbox (4.12697pt too wide) in paragraph at lines 150--153
 \OT1/cmr/m/n/10 Auf der Ba-sis, dass r[]aumliches Vor-stel-lungs-verm[]ogen ein
 en wich-ti-gen Teil mensch-
@@ -1272,10 +1244,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--153
  []
 
 [5]
-
-LaTeX Warning: Citation '1667626' on page 6 undefined on input line 156.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
  []
@@ -1292,33 +1260,16 @@ t/10 text-to-speech \OT1/cmr/m/n/10 Sys-tem Er-kl[]arungen
  []
 
 
-LaTeX Warning: Citation '1667626' on page 7 undefined on input line 179.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-
-LaTeX Warning: Citation '1667626' on page 7 undefined on input line 181.
-
 [7]
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 184.
-
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 187.
-
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 189.
-
-<figures/transparency.png, id=157, 597.23125pt x 526.96875pt>
+<figures/transparency.png, id=180, 597.23125pt x 526.96875pt>
 File: figures/transparency.png Graphic file (type png)
 <use figures/transparency.png>
 Package pdftex.def Info: figures/transparency.png  used on input line 194.
 (pdftex.def)             Requested size: 242.98541pt x 214.40216pt.
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 195.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1326,22 +1277,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `samplefigure' on page 8 undefined on input line 200.
 
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 201.
-
-<figures/classroom.png, id=159, 806.01125pt x 493.845pt>
+<figures/classroom.png, id=184, 806.01125pt x 493.845pt>
 File: figures/classroom.png Graphic file (type png)
 <use figures/classroom.png>
 Package pdftex.def Info: figures/classroom.png  used on input line 206.
 (pdftex.def)             Requested size: 347.12354pt x 212.68076pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 214.
-
-
-LaTeX Warning: Citation '1667626' on page 8 undefined on input line 216.
 
 [8] [9 <./figures/transparency.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
@@ -1352,10 +1294,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
  [10 <./figures/classroom.png>]
-
-LaTeX Warning: Citation '1667626' on page 11 undefined on input line 227.
-
-<figures/isonorm.png, id=187, 821.0675pt x 412.54124pt>
+<figures/isonorm.png, id=215, 821.0675pt x 412.54124pt>
 File: figures/isonorm.png Graphic file (type png)
 <use figures/isonorm.png>
 Package pdftex.def Info: figures/isonorm.png  used on input line 231.
@@ -1366,7 +1305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--237
  []
 
 [11 <./figures/isonorm.png>]
-<figures/stat1.png, id=203, 893.3375pt x 607.26875pt>
+<figures/stat1.png, id=231, 893.3375pt x 607.26875pt>
 File: figures/stat1.png Graphic file (type png)
 <use figures/stat1.png>
 Package pdftex.def Info: figures/stat1.png  used on input line 242.
@@ -1384,7 +1323,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--252
 
  []
 
-[13] [14] [15]
+[13]
+Overfull \hbox (34.6739pt too wide) in paragraph at lines 257--257
+\OT1/cmr/m/n/10 mer-si-ve Vir-tu-al En-vi-ron-ments: De-sign, Eva-lua-ti-on, an
+d Ap-p-li-ca-ti-on\. AAI9953819.
+ []
+
+[14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
  (seminararbeit.aux)
@@ -1399,19 +1344,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                seminararbeit
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'seminararbeit.run.xml'.
 \openout1 = `seminararbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26868 strings out of 492970
- 512885 string characters out of 3127925
- 829402 words of memory out of 3000000
+ 26870 strings out of 492970
+ 513375 string characters out of 3127925
+ 828402 words of memory out of 3000000
  30285 multiletter control sequences out of 15000+200000
  12037 words of font info for 42 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -1436,9 +1376,9 @@ ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Yi/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 /Users/Yi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb>
-Output written on seminararbeit.pdf (17 pages, 803045 bytes).
+Output written on seminararbeit.pdf (16 pages, 798976 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
